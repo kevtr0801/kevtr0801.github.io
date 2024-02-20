@@ -15,6 +15,7 @@
 
 ---
 [Project 2 Title](/pdf/sample_presentation.pdf)
+[View Rmarkdown here]
 <img src="images/dummy_thumbnail.jpg?raw=true"/>
 
 ---
