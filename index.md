@@ -6,8 +6,8 @@
 
 [Semantic Analysis of Amazon Customer Reviews Using NLP](https://colab.research.google.com/drive/1fTI68pxkJyydkzL9ix2HFqkUyjhI7Mv1?usp=sharing)
 <p float="left">
-  <img src="images/wordcloud.png" width="20%" />
-  <img src="images/ts.png" width="20%" /> 
+  <img src="images/wordcloud.png" width="40%" />
+  <img src="images/ts.png" width="40%" /> 
 </p>
 
 
