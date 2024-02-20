@@ -38,6 +38,13 @@
 </p>
 
 
+### Exploring the Structure of US Income Inequality Through Dimensionality Reduction
+[View Code on Colab](https://colab.research.google.com/drive/1oaAbkFeCLZrftQxKQbltCcsUBzpjpm6L?usp=sharing)
+<p float="left">
+  <img src="images/pca.png" width="40%" />
+  <img src="images/mds.png" width="40%" /> 
+</p>
+
 - [Project 1 Title](http://example.com/)
 - [Project 2 Title](http://example.com/)
 - [Project 3 Title](http://example.com/)
