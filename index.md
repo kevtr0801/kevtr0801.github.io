@@ -14,9 +14,14 @@
 ![Jupyter](https://img.shields.io/badge/Jupyter-F37626.svg?&style=for-the-badge&logo=Jupyter&logoColor=white)
 
 ---
+
+### Predicting Autism in Children using Decision Trees
 [Project 2 Title](/pdf/sample_presentation.pdf)
 [View Rmarkdown here]
-<img src="images/dummy_thumbnail.jpg?raw=true"/>
+<p float="left">
+  <img src="images/eth-group.png" width="40%" />
+  <img src="images/tree.png" width="40%" /> 
+</p>
 
 ---
 [Project 3 Title](http://example.com/)
