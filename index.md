@@ -19,7 +19,7 @@
 [Project 2 Title](/pdf/sample_presentation.pdf)
 [View Rmarkdown here]
 <p float="left">
-  <img src="images/eth-group.png" width="40%" />
+  <img src="images/eth-clas.png" width="40%" />
   <img src="images/tree.png" width="40%" /> 
 </p>
 
