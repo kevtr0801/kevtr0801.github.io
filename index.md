@@ -2,9 +2,9 @@
 
 ---
 
-### Semantic Analysis on Amazon Customer Reviews using NLP
+### Semantic Analysis of Amazon Customer Reviews Using NLP
 
-[Project 1 Title](/sample_page)
+[Semantic Analysis of Amazon Customer Reviews Using NLP]((https://colab.research.google.com/drive/1fTI68pxkJyydkzL9ix2HFqkUyjhI7Mv1?usp=sharing))
 <img src="images/dummy_thumbnail.jpg?raw=true"/>
 
 ---
