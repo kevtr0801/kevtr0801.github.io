@@ -16,7 +16,7 @@
 ---
 
 ### Predicting Autism in Children using Decision Trees
-[Project 2 Title](/pdf/sample_presentation.pdf)
+[View Code on Colab](https://colab.research.google.com/drive/1rb8jteWVyb2elwHAeDdrGXMfFHXKfUBO?usp=sharing)
 [View Rmarkdown here]
 <p float="left">
   <img src="images/eth-clas.png" width="40%" />
