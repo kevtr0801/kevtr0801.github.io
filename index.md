@@ -37,6 +37,11 @@
   <img src="images/ets-model.png" width="40%" /> 
 </p>
 
+### Coffee Quality Analysis through Logistic Regression
+[View code on Colab]()
+<p float="left">
+  <img src="images/cup-var.png" width="10%" />
+</p>
 
 ### Exploring the Structure of US Income Inequality Through Dimensionality Reduction
 [View Code on Colab](https://colab.research.google.com/drive/1oaAbkFeCLZrftQxKQbltCcsUBzpjpm6L?usp=sharing)
