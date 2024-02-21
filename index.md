@@ -37,7 +37,7 @@
 ### Coffee Quality Analysis through Logistic Regression
 [View code on Colab]()
 <p float="left">
-  <img src="images/cup-var.png" width="10%" />
+  <img src="images/cup-var.png" width="20%" />
 </p>
 
 ### Exploring the Structure of US Income Inequality Through Dimensionality Reduction
