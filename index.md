@@ -29,9 +29,9 @@
 ### Forecasting Food Service Turnover in Victoria, Australia
 [View Code on Colab](https://colab.research.google.com/drive/1LRFjsoKpLBRtxFh6nExfkQcSz_GM0KHl?usp=sharing)
 <p float="left">
-  <img src="images/forecast-models.png" width="40%" />
-  <img src="images/residual-plot.png" width="40%" /> 
-  <img src="images/ets-model.png" width="40%" /> 
+  <img src="images/forecast-models.png" width="20%" />
+  <img src="images/residual-plot.png" width="20%" /> 
+  <img src="images/ets-model.png" width="20%" /> 
 </p>
 
 ### Coffee Quality Analysis through Logistic Regression
