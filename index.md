@@ -37,7 +37,8 @@
 ### Coffee Quality Analysis through Logistic Regression
 [View code on Colab]()
 <p float="left">
-  <img src="images/cup-var.png" width="20%" />
+  <img src="images/altitude-dist.png" width="20%" />
+  <img src="images/scatter.png" width="20%" />
 </p>
 
 ###Heart Failure Prediction Using KNN, Decision Trees, and Support Vector Machines
