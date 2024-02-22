@@ -43,7 +43,7 @@
 ###Heart Failure Prediction Using KNN, Decision Trees, and Support Vector Machines
 [View Code on Colab]()
 <p float="left">
-  <img src="images/knn-plot.png" width=20% />
+  <img src="images/knn-heart.png" width=20% />
   <img src="images/heart-tree2.png" width="20%" />
   <img src="images/svm-plot.png" width="20%" /> 
 </p>
