@@ -40,9 +40,20 @@
   <img src="images/cup-var.png" width="20%" />
 </p>
 
+###Heart Failure Prediction Using KNN, Decision Trees, and Support Vector Machines
+[View Code on Colab]()
+<p float="left">
+  <img src="images/knn-plot.png" width=20% />
+  <img src="images/heart-tree2.png" width="20%" />
+  <img src="images/svm-plot.png" width="20%" /> 
+</p>
+
+
+
 ### Exploring the Structure of US Income Inequality Through Dimensionality Reduction
 [View Code on Colab](https://colab.research.google.com/drive/1oaAbkFeCLZrftQxKQbltCcsUBzpjpm6L?usp=sharing)
 <p float="left">
+  <img src="images/gini" width="40%" />
   <img src="images/pca.png" width="40%" />
   <img src="images/mds.png" width="40%" /> 
 </p>
