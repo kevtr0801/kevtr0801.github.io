@@ -28,6 +28,10 @@ Customer reviews have become a cornerstone for consumer decision-making. In this
 </p>
 
 ![RStudio](https://img.shields.io/badge/RStudio-4285F4?style=for-the-badge&logo=rstudio&logoColor=white)
+![rpart](https://img.shields.io/badge/-rpart-FF5733?style=for-the-badge&logoColor=white)
+![caret](https://img.shields.io/badge/-caret-33FF57?style=for-the-badge&logoColor=white)
+![ranger](https://img.shields.io/badge/-ranger-57FFC7?style=for-the-badge&logoColor=white)
+
 
 ---
 
