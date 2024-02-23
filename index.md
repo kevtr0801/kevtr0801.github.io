@@ -26,8 +26,8 @@ Customer reviews have become a cornerstone for consumer decision-making. In this
 [View Code on Colab](https://colab.research.google.com/drive/1rb8jteWVyb2elwHAeDdrGXMfFHXKfUBO?usp=sharing)
 [View Rmarkdown here]
 <p float="left">
-  <img src="images/eth-clas.png" width="40%" />
-  <img src="images/tree.png" width="40%" /> 
+  <img src="images/eth-clas.png" width="40%" height="100" />
+  <img src="images/tree.png" width="40%" height="100" /> 
 </p>
 
 ![RStudio](https://img.shields.io/badge/RStudio-4285F4?style=for-the-badge&logo=rstudio&logoColor=white)
@@ -42,9 +42,9 @@ Customer reviews have become a cornerstone for consumer decision-making. In this
 ### Forecasting Food Service Turnover in Victoria, Australia
 [View Code on Colab](https://colab.research.google.com/drive/1LRFjsoKpLBRtxFh6nExfkQcSz_GM0KHl?usp=sharing)
 <p float="left">
-  <img src="images/forecast-models.png" width="20%" />
-  <img src="images/residual-plot.png" width="20%" /> 
-  <img src="images/ets-model.png" width="20%" /> 
+  <img src="images/forecast-models.png" width="40%" height="100" />
+  <img src="images/residual-plot.png" width="40%" height="100" /> 
+  <img src="images/ets-model.png" width="40%" height="100" /> 
 </p>
 
 ![RStudio](https://img.shields.io/badge/RStudio-4285F4?style=for-the-badge&logo=rstudio&logoColor=white)
@@ -53,8 +53,8 @@ Customer reviews have become a cornerstone for consumer decision-making. In this
 ### Coffee Quality Analysis through Logistic Regression
 [View code on Colab]()
 <p float="left">
-  <img src="images/altitude-dist.png" width="20%" />
-  <img src="images/scatter.png" width="20%" />
+  <img src="images/altitude-dist.png" width="40%" height="100" />
+  <img src="images/scatter.png" width="40%" height="100" />
 </p>
 
 ![Python](https://img.shields.io/badge/Python-3776AB?style=for-the-badge&logo=python&logoColor=white)
@@ -68,9 +68,9 @@ Customer reviews have become a cornerstone for consumer decision-making. In this
 ### Heart Failure Prediction Using KNN, Decision Trees, and Support Vector Machines
 [View Code on Colab](https://colab.research.google.com/drive/1-i9iOU26G-RsD1Yn5TEjz5NIvrweUOIo?usp=sharing)
 <p float="left">
-  <img src="images/knn-heart.png" width="10%" />
-  <img src="images/heart-tree2.png" width="20%" />
-  <img src="images/svm-plot.png" width="20%" /> 
+  <img src="images/knn-heart.png" width="40%" height="100" />
+  <img src="images/heart-tree2.png" width="40%" height="100" />
+  <img src="images/svm-plot.png" width="40%" height="100" /> 
 </p>
 
 ![RStudio](https://img.shields.io/badge/RStudio-4285F4?style=for-the-badge&logo=rstudio&logoColor=white)
@@ -84,9 +84,9 @@ Customer reviews have become a cornerstone for consumer decision-making. In this
 ### Exploring the Structure of US Income Inequality Through Dimensionality Reduction
 [View Code on Colab](https://colab.research.google.com/drive/1oaAbkFeCLZrftQxKQbltCcsUBzpjpm6L?usp=sharing)
 <p float="left">
-  <img src="images/gini.png" width="40%" />
-  <img src="images/pca.png" width="40%" />
-  <img src="images/mds.png" width="40%" /> 
+  <img src="images/gini.png" width="40%" height="100" />
+  <img src="images/pca.png" width="40%" height="100" />
+  <img src="images/mds.png" width="40%" height="100" /> 
 </p>
 
 ![RStudio](https://img.shields.io/badge/RStudio-4285F4?style=for-the-badge&logo=rstudio&logoColor=white)
