@@ -24,8 +24,8 @@ Customer reviews have become a cornerstone for consumer decision-making. In this
 
 [View Rmarkdown here]
 <p float="left">
-  <img src="images/eth-clas.png" width="40%" height="100" />
-  <img src="images/tree.png" width="40%" height="100" /> 
+  <img src="images/eth-clas.png" width="20%" height="100" />
+  <img src="images/tree.png" width="20%" height="100" /> 
 </p>
 
 [View Code on Colab](https://colab.research.google.com/drive/1rb8jteWVyb2elwHAeDdrGXMfFHXKfUBO?usp=sharing)
@@ -53,8 +53,8 @@ Customer reviews have become a cornerstone for consumer decision-making. In this
 ### Coffee Quality Analysis through Logistic Regression
 [View code on Colab]()
 <p float="left">
-  <img src="images/altitude-dist.png" width="40%" height="100" />
-  <img src="images/scatter.png" width="40%" height="100" />
+  <img src="images/altitude-dist.png" width="20%" height="100" />
+  <img src="images/scatter.png" width="20%" height="100" />
 </p>
 
 ![Python](https://img.shields.io/badge/Python-3776AB?style=for-the-badge&logo=python&logoColor=white)
