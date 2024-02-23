@@ -14,7 +14,7 @@ Customer reviews have become a cornerstone for consumer decision-making. In this
 ![Python](https://img.shields.io/badge/Python-3776AB?style=for-the-badge&logo=python&logoColor=white)
 ![Jupyter Notebook](https://img.shields.io/badge/jupyter-%23FA0F00.svg?style=for-the-badge&logo=jupyter&logoColor=white)
 ![Pandas](https://img.shields.io/badge/pandas-%23150458.svg?style=for-the-badge&logo=pandas&logoColor=white)
-![NLTK](https://img.shields.io/badge/NLTK-%23150458.svg?style=for-the-badge&logoColor=green)
+![NLTK](https://img.shields.io/badge/NLTK-%2300C851.svg?style=for-the-badge&logoColor=white)
 ![scikit-learn](https://img.shields.io/badge/scikit--learn-%23F7931E.svg?style=for-the-badge&logo=scikit-learn&logoColor=white)
 
 ---
