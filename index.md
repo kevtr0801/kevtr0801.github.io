@@ -47,6 +47,9 @@ Customer reviews have become a cornerstone for consumer decision-making. In this
   <img src="images/ets-model.png" width="20%" /> 
 </p>
 
+![RStudio](https://img.shields.io/badge/RStudio-4285F4?style=for-the-badge&logo=rstudio&logoColor=white)
+![forecast](https://img.shields.io/badge/-forecast-7FFFD4?style=for-the-badge&logoColor=white)
+
 ### Coffee Quality Analysis through Logistic Regression
 [View code on Colab]()
 <p float="left">
@@ -85,6 +88,10 @@ Customer reviews have become a cornerstone for consumer decision-making. In this
   <img src="images/pca.png" width="40%" />
   <img src="images/mds.png" width="40%" /> 
 </p>
+
+![RStudio](https://img.shields.io/badge/RStudio-4285F4?style=for-the-badge&logo=rstudio&logoColor=white)
+![MASS](https://img.shields.io/badge/-MASS-brightgreen?style=for-the-badge&logoColor=white)
+
 
 - [Project 1 Title](http://example.com/)
 - [Project 2 Title](http://example.com/)
