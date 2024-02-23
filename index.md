@@ -50,7 +50,7 @@ Customer reviews have become a cornerstone for consumer decision-making. In this
 ![Pandas](https://img.shields.io/badge/pandas-%23150458.svg?style=for-the-badge&logo=pandas&logoColor=white)
 ![Matplotlib](https://img.shields.io/badge/Matplotlib-%23ffffff.svg?style=for-the-badge&logo=Matplotlib&logoColor=black)
 ![scikit-learn](https://img.shields.io/badge/scikit--learn-%23F7931E.svg?style=for-the-badge&logo=scikit-learn&logoColor=white)
-![seaborn](https://img.shields.io/badge/-seaborn-blue?style=for-the-badge&logoColor=white)
+![seaborn](https://img.shields.io/badge/-seaborn-9B59B6?style=for-the-badge&logoColor=white)
 ![statsmodels](https://img.shields.io/badge/-statsmodels-blue?style=for-the-badge&logoColor=white)
 
 
