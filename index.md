@@ -6,13 +6,10 @@
 Customer reviews have become a cornerstone for consumer decision-making. In this project I used Natural Language Processing (NLP), to detect the customer's sentimental value of the product. This involves handling raw dataset and parsing it into a dataframe, NLP processess such as lemmatization and using WordClouds to observe what customers are saying for a certain product. 
 
 <p float="left">
-  <div style="width: 40%; float: left;">
-    <img src="images/wordcloud.png" style="width: 100%; height: auto;" />
-  </div>
-  <div style="width: 40%; float: left;">
-    <img src="images/ts.png" style="width: 100%; height: auto;" />
-  </div>
+  <img src="images/wordcloud.png" width="40%" height="200" />
+  <img src="images/ts.png" width="40%" height="200" /> 
 </p>
+
 
 
 [View Code on Colab](https://colab.research.google.com/drive/1fTI68pxkJyydkzL9ix2HFqkUyjhI7Mv1?usp=sharing)
