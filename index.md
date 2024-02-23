@@ -41,9 +41,9 @@ Customer reviews have become a cornerstone for consumer decision-making. In this
 
 ### Forecasting Food Service Turnover in Victoria, Australia
 <p>
-  <img src="images/forecast-models.png" width="40%" height="100" />
-  <img src="images/residual-plot.png" width="40%" height="100" /> 
-  <img src="images/ets-model.png" width="40%" height="100" /> 
+  <img src="images/forecast-models.png" width="30%" height="100" />
+  <img src="images/residual-plot.png" width="30%" height="100" />
+  <img src="images/ets-model.png" width="30%" height="100" />
 </p>
 
 [View Code on Colab](https://colab.research.google.com/drive/1LRFjsoKpLBRtxFh6nExfkQcSz_GM0KHl?usp=sharing)
