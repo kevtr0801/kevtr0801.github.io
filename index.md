@@ -3,7 +3,7 @@
 ---
 
 ### Semantic Analysis of Amazon Customer Reviews Using NLP
-Customer reviews have become a cornerstone for consumer decision-making. Using Natural Language Processing (NLP), we can detect the customer's emotional value of the product, helping businesses unlock patterns and the sentiment of products over time.
+Customer reviews have become a cornerstone for consumer decision-making. In this project I used Natural Language Processing (NLP), to detect the customer's sentimental value of the product. This involves handling raw dataset and parsing it into a dataframe, NLP processess such as lemmatization and using WordClouds to observe what customers are saying for a certain product. 
 
 [View Code on Colab](https://colab.research.google.com/drive/1fTI68pxkJyydkzL9ix2HFqkUyjhI7Mv1?usp=sharing)
 <p float="left">
