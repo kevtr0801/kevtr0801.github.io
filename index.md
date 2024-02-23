@@ -10,8 +10,6 @@ Customer reviews have become a cornerstone for consumer decision-making. In this
   <img src="images/ts.png" width="40%" height="100" /> 
 </p>
 
-
-
 [View Code on Colab](https://colab.research.google.com/drive/1fTI68pxkJyydkzL9ix2HFqkUyjhI7Mv1?usp=sharing)
 
 ![Python](https://img.shields.io/badge/Python-3776AB?style=for-the-badge&logo=python&logoColor=white)
@@ -23,12 +21,14 @@ Customer reviews have become a cornerstone for consumer decision-making. In this
 ---
 
 ### Predicting Autism in Children using Decision Trees
-[View Code on Colab](https://colab.research.google.com/drive/1rb8jteWVyb2elwHAeDdrGXMfFHXKfUBO?usp=sharing)
+
 [View Rmarkdown here]
 <p float="left">
   <img src="images/eth-clas.png" width="40%" height="100" />
   <img src="images/tree.png" width="40%" height="100" /> 
 </p>
+
+[View Code on Colab](https://colab.research.google.com/drive/1rb8jteWVyb2elwHAeDdrGXMfFHXKfUBO?usp=sharing)
 
 ![RStudio](https://img.shields.io/badge/RStudio-4285F4?style=for-the-badge&logo=rstudio&logoColor=white)
 ![rpart](https://img.shields.io/badge/-rpart-FF5733?style=for-the-badge&logoColor=white)
@@ -40,13 +40,13 @@ Customer reviews have become a cornerstone for consumer decision-making. In this
 
 
 ### Forecasting Food Service Turnover in Victoria, Australia
-[View Code on Colab](https://colab.research.google.com/drive/1LRFjsoKpLBRtxFh6nExfkQcSz_GM0KHl?usp=sharing)
 <p float="left">
   <img src="images/forecast-models.png" width="40%" height="100" />
   <img src="images/residual-plot.png" width="40%" height="100" /> 
   <img src="images/ets-model.png" width="40%" height="100" /> 
 </p>
 
+[View Code on Colab](https://colab.research.google.com/drive/1LRFjsoKpLBRtxFh6nExfkQcSz_GM0KHl?usp=sharing)
 ![RStudio](https://img.shields.io/badge/RStudio-4285F4?style=for-the-badge&logo=rstudio&logoColor=white)
 ![FPP3](https://img.shields.io/badge/FPP3-7FFFD4?style=for-the-badge&logoColor=white)
 
@@ -67,8 +67,8 @@ Customer reviews have become a cornerstone for consumer decision-making. In this
 
 ### Heart Failure Prediction Using KNN, Decision Trees, and Support Vector Machines
 [View Code on Colab](https://colab.research.google.com/drive/1-i9iOU26G-RsD1Yn5TEjz5NIvrweUOIo?usp=sharing)
-<p float="left">
-  <img src="images/knn-heart.png" width="30%" height="80%" />
+<p>
+  <img src="images/knn-heart.png" width="30%" height="auto" />
   <img src="images/heart-tree2.png" width="30%" height="auto" />
   <img src="images/svm-plot.png" width="30%" height="auto" /> 
 </p>
