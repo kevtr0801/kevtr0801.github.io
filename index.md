@@ -92,12 +92,14 @@ Customer reviews have become a cornerstone for consumer decision-making. In this
 ![RStudio](https://img.shields.io/badge/RStudio-4285F4?style=for-the-badge&logo=rstudio&logoColor=white)
 ![MASS](https://img.shields.io/badge/-MASS-brightgreen?style=for-the-badge&logoColor=white)
 
-
+<!-- 
 - [Project 1 Title](http://example.com/)
 - [Project 2 Title](http://example.com/)
 - [Project 3 Title](http://example.com/)
 - [Project 4 Title](http://example.com/)
 - [Project 5 Title](http://example.com/)
+-->
+
 
 ---
 
