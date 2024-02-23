@@ -21,7 +21,7 @@ Customer reviews have become a cornerstone for consumer decision-making. In this
 
 ---
 
-### Forecasting Food Service Turnover in Victoria, Australia
+### The Business of Eating: Forecasting Trends in Victoria's Food Industry
 <p>
   <img src="images/forecast-models.png" width="30%" height="100" />
   <img src="images/residual-plot.png" width="30%" height="100" />
