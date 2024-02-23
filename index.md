@@ -20,9 +20,21 @@ Customer reviews have become a cornerstone for consumer decision-making. In this
 
 ---
 
-### Predicting Autism in Children using Decision Trees
+### Forecasting Food Service Turnover in Victoria, Australia
+<p>
+  <img src="images/forecast-models.png" width="30%" height="100" />
+  <img src="images/residual-plot.png" width="30%" height="100" />
+  <img src="images/ets-model.png" width="30%" height="100" />
+</p>
 
-[View Rmarkdown here]
+[View Code on Colab](https://colab.research.google.com/drive/1LRFjsoKpLBRtxFh6nExfkQcSz_GM0KHl?usp=sharing)
+![RStudio](https://img.shields.io/badge/RStudio-4285F4?style=for-the-badge&logo=rstudio&logoColor=white)
+![FPP3](https://img.shields.io/badge/FPP3-7FFFD4?style=for-the-badge&logoColor=white)
+
+
+---
+
+### Predicting Autism in Children using Decision Trees
 <p float="left">
   <img src="images/eth-clas.png" width="30%" height="100" />
   <img src="images/tree.png" width="30%" height="100" /> 
@@ -36,19 +48,6 @@ Customer reviews have become a cornerstone for consumer decision-making. In this
 ![ranger](https://img.shields.io/badge/-ranger-57FFC7?style=for-the-badge&logoColor=white)
 
 
----
-
-
-### Forecasting Food Service Turnover in Victoria, Australia
-<p>
-  <img src="images/forecast-models.png" width="30%" height="100" />
-  <img src="images/residual-plot.png" width="30%" height="100" />
-  <img src="images/ets-model.png" width="30%" height="100" />
-</p>
-
-[View Code on Colab](https://colab.research.google.com/drive/1LRFjsoKpLBRtxFh6nExfkQcSz_GM0KHl?usp=sharing)
-![RStudio](https://img.shields.io/badge/RStudio-4285F4?style=for-the-badge&logo=rstudio&logoColor=white)
-![FPP3](https://img.shields.io/badge/FPP3-7FFFD4?style=for-the-badge&logoColor=white)
 
 ### Coffee Quality Analysis through Logistic Regression
 [View code on Colab]()
@@ -63,6 +62,7 @@ Customer reviews have become a cornerstone for consumer decision-making. In this
 ![scikit-learn](https://img.shields.io/badge/scikit--learn-%23F7931E.svg?style=for-the-badge&logo=scikit-learn&logoColor=white)
 ![seaborn](https://img.shields.io/badge/-seaborn-9B59B6?style=for-the-badge&logoColor=white)
 ![statsmodels](https://img.shields.io/badge/-statsmodels-blue?style=for-the-badge&logoColor=white)
+
 
 
 ### Heart Failure Prediction Using KNN, Decision Trees, and Support Vector Machines
