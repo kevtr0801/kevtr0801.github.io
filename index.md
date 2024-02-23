@@ -47,6 +47,13 @@ Customer reviews have become a cornerstone for consumer decision-making. In this
   <img src="images/scatter.png" width="20%" />
 </p>
 
+![Pandas](https://img.shields.io/badge/pandas-%23150458.svg?style=for-the-badge&logo=pandas&logoColor=white)
+![Matplotlib](https://img.shields.io/badge/Matplotlib-%23ffffff.svg?style=for-the-badge&logo=Matplotlib&logoColor=black)
+![scikit-learn](https://img.shields.io/badge/scikit--learn-%23F7931E.svg?style=for-the-badge&logo=scikit-learn&logoColor=white)
+![seaborn](https://img.shields.io/badge/-seaborn-blue?style=for-the-badge&logoColor=white)
+![statsmodels](https://img.shields.io/badge/-statsmodels-blue?style=for-the-badge&logoColor=white)
+
+
 ### Heart Failure Prediction Using KNN, Decision Trees, and Support Vector Machines
 [View Code on Colab](https://colab.research.google.com/drive/1-i9iOU26G-RsD1Yn5TEjz5NIvrweUOIo?usp=sharing)
 <p float="left">
