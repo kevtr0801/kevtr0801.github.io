@@ -53,7 +53,7 @@ Customer reviews have become a cornerstone for consumer decision-making. In this
 ### Coffee Quality Analysis through Logistic Regression
 [View code on Colab]()
 <p float="left">
-  <img src="images/altitude-dist.png" width="40%" height="100" />
+  <img src="images/altitude-dist.png" width="40%" height="au" />
   <img src="images/scatter.png" width="40%" height="100" />
 </p>
 
@@ -83,10 +83,10 @@ Customer reviews have become a cornerstone for consumer decision-making. In this
 
 ### Exploring the Structure of US Income Inequality Through Dimensionality Reduction
 [View Code on Colab](https://colab.research.google.com/drive/1oaAbkFeCLZrftQxKQbltCcsUBzpjpm6L?usp=sharing)
-<p>
-  <img src="images/gini.png" width="30%" height="auto" />
-  <img src="images/pca.png" width="30%" height="auto" />
-  <img src="images/mds.png" width="30%" height="auto" /> 
+<p style="display: flex; flex-wrap: nowrap;">
+  <img src="images/gini.png" style="flex: 1; width: 33%; height: auto;" />
+  <img src="images/pca.png" style="flex: 1; width: 33%; height: auto;" />
+  <img src="images/mds.png" style="flex: 1; width: 33%; height: auto;" />
 </p>
 
 
