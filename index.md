@@ -68,7 +68,7 @@ Customer reviews have become a cornerstone for consumer decision-making. In this
 ### Heart Failure Prediction Using KNN, Decision Trees, and Support Vector Machines
 [View Code on Colab](https://colab.research.google.com/drive/1-i9iOU26G-RsD1Yn5TEjz5NIvrweUOIo?usp=sharing)
 <p float="left">
-  <img src="images/knn-heart.png" width="30%" height="40" />
+  <img src="images/knn-heart.png" width="30%" height="80" />
   <img src="images/heart-tree2.png" width="30%" height="auto" />
   <img src="images/svm-plot.png" width="30%" height="auto" /> 
 </p>
