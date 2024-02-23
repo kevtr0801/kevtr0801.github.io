@@ -70,6 +70,12 @@ Customer reviews have become a cornerstone for consumer decision-making. In this
   <img src="images/svm-plot.png" width="20%" /> 
 </p>
 
+![RStudio](https://img.shields.io/badge/RStudio-4285F4?style=for-the-badge&logo=rstudio&logoColor=white)
+![FNN](https://img.shields.io/badge/-FNN-FF69B4?style=for-the-badge&logoColor=white)
+![forecast](https://img.shields.io/badge/-forecast-7FFFD4?style=for-the-badge&logoColor=white)
+![e1071](https://img.shields.io/badge/-e1071-FFD700?style=for-the-badge&logoColor=white)
+![pROC](https://img.shields.io/badge/-pROC-6495ED?style=for-the-badge&logoColor=white)
+
 
 
 ### Exploring the Structure of US Income Inequality Through Dimensionality Reduction
