@@ -83,11 +83,12 @@ Customer reviews have become a cornerstone for consumer decision-making. In this
 
 ### Exploring the Structure of US Income Inequality Through Dimensionality Reduction
 [View Code on Colab](https://colab.research.google.com/drive/1oaAbkFeCLZrftQxKQbltCcsUBzpjpm6L?usp=sharing)
-<p float="left">
-  <img src="images/gini.png" width="40%" height="100" />
-  <img src="images/pca.png" width="40%" height="100" />
-  <img src="images/mds.png" width="40%" height="100" /> 
+<p>
+  <img src="images/gini.png" width="30%" height="auto" />
+  <img src="images/pca.png" width="30%" height="auto" />
+  <img src="images/mds.png" width="30%" height="auto" /> 
 </p>
+
 
 ![RStudio](https://img.shields.io/badge/RStudio-4285F4?style=for-the-badge&logo=rstudio&logoColor=white)
 ![MASS](https://img.shields.io/badge/-MASS-brightgreen?style=for-the-badge&logoColor=white)
