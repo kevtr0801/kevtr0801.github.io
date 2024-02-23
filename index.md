@@ -5,12 +5,12 @@
 ### Semantic Analysis of Amazon Customer Reviews Using NLP
 Customer reviews have become a cornerstone for consumer decision-making. In this project I used Natural Language Processing (NLP), to detect the customer's sentimental value of the product. This involves handling raw dataset and parsing it into a dataframe, NLP processess such as lemmatization and using WordClouds to observe what customers are saying for a certain product. 
 
-[View Code on Colab](https://colab.research.google.com/drive/1fTI68pxkJyydkzL9ix2HFqkUyjhI7Mv1?usp=sharing)
 <p float="left">
   <img src="images/wordcloud.png" width="40%" />
   <img src="images/ts.png" width="40%" /> 
 </p>
 
+[View Code on Colab](https://colab.research.google.com/drive/1fTI68pxkJyydkzL9ix2HFqkUyjhI7Mv1?usp=sharing)
 ![Python](https://img.shields.io/badge/Python-3776AB?style=for-the-badge&logo=python&logoColor=white)
 ![Jupyter Notebook](https://img.shields.io/badge/jupyter-%23FA0F00.svg?style=for-the-badge&logo=jupyter&logoColor=white)
 ![Pandas](https://img.shields.io/badge/pandas-%23150458.svg?style=for-the-badge&logo=pandas&logoColor=white)
