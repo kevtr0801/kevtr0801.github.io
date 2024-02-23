@@ -48,7 +48,7 @@ Customer reviews have become a cornerstone for consumer decision-making. In this
 </p>
 
 ![RStudio](https://img.shields.io/badge/RStudio-4285F4?style=for-the-badge&logo=rstudio&logoColor=white)
-![FPP3](https://img.shields.io/badge/-fpp3-7FFFD4??style=for-the-badge&logoColor=white)
+![FPP3](https://img.shields.io/badge/FPP3-7FFFD4?style=for-the-badge&logoColor=white)
 
 ### Coffee Quality Analysis through Logistic Regression
 [View code on Colab]()
