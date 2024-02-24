@@ -1,0 +1,420 @@
+---
+title: "Forecasting turnover of Victoria's cafe and fast-food services"
+author: "Kevin. T"
+date: "2024-01-26"
+output:
+  pdf_document: default
+  html_document: default
+---
+
+```{r setup, include=FALSE}
+library(tidyverse)
+library(forecast)
+library(zoo)
+library(fpp3)
+library(readr)
+library(kableExtra)
+```
+
+# The Business of Eating: Forecasting Trends in Victoria's Food Industry
+This project embarks on an analytical journey to forecast the future of food service turnovers in Victoria Australia. I will be using Seasonal Naive, Exponential Smoothing (ETS) and AutoRegressive Integrated Moving Average (ARIMA) forecasting models to provide a comprehensive outlook on the movement in food service sales. 
+
+The objective is to offer valuale insights of the food-service market in Victoria, and to demostrate the efficiecy of forecasting technique on how they contribute to economical planning and decision-making. As Australia (Victoria included) continues to navigate through the post-COVID era and the rise of cost-of-living crisis, I hope this forecasting demostratation sheds light of the food service industry. 
+
+**Data source**: https://explore.data.abs.gov.au/vis?tm=turnover&pg=0&df[ds]=INDUSTRY_TOPICS&df[id]=RT&df[ag]=ABS&df[vs]=1.0.0&pd=2022-07%2C&dq=.20%2B41%2B42%2B43%2B44%2B45%2B46..AUS.M&ly[cl]=INDUSTRY&ly[rw]=TIME_PERIOD&ly[rs]=MEASURE%2CTSEST 
+
+The dataset contains the following variables:
+
+|variable         |class     |description |
+|:----------------|:---------|:-----------|
+|TIME_PERIOD      |character    | month and year of observation ranging from 1981 - 2024
+|OBS_VALUE_VIC    |double       | observed turnover value for VIC
+|OBS_VALUE_NSW    |double       | observed turnover value for NSW
+
+```{r}
+fs_turnover <- read_csv("vic-food-turnover.csv") %>%
+  rename(Turnover = OBS_VALUE_VIC, Month = TIME_PERIOD) %>%
+  dplyr::select(Month, Turnover) %>%
+  mutate(Month = yearmonth(Month)) %>%
+  as_tsibble(index = Month)
+head(fs_turnover)
+
+```
+# Data Preprocessing and Exploring the Time-Series
+In this section I have renamed the OBS_VALUE to turnover and TIME_PERIOD to Month to ensure the variable names are more meaningful and easy to understand. I plotted the time-series graph to give an idea of what the forecasting patterns looks like.
+
+```{r}
+fs_turnover %>% autoplot(Turnover) + ggtitle("Turnovers of Victorian cafes, restaurants & fast-food") +
+  ylab("$AUD (millions)") 
+```
+As we can observe, there is a general increase of turnovers for the food service industry. We notice however around 2020, there is a huge downward peak because of the COVID-19 pandemic. But post-pandemic we can observe a steady upward trend indicating the food-service retail turnover is doing well.
+
+```{r}
+# seasonal plot 
+fs_turnover %>% 
+  filter(year(Month)>2018) %>%
+  gg_season(Turnover, labels = 'both') + guides(colour = "none") +
+  labs(
+    title = "Seasonal Plot ",
+    y = "$AUD (millions)")
+
+#subseries plot
+fs_turnover %>%
+  filter(year(Month)>2018) %>%
+  gg_subseries(Turnover) +
+  labs(
+    title = "Turnover: Western Australia Department Stores Seasonal Plot 1982-2022 ",
+    y = "$AUD (millions)"
+  )
+```
+
+
+Plotting thes seasonal plot, we can observe that between 2018 and 2023 in around September, there is a gradual increase of the turnover all the way until around January where it begins to gradually decrease. We can further see in the sub-series plot a sharp in September, peaking around December. This could reflect an increase in dining out associated with spring and summer activities, including end-of-year celebrations. After December, there is a smaller margin possible due to a combination of end of holiday season and people may choose to eat at home or go on vacation outside of Australia. 
+
+### Data Transformation 
+```{r}
+fs_turnover %>% autoplot(Turnover) + ggtitle("Turnovers of Victorian cafes, restaurants & fast-food") +
+  ylab("$AUD (millions)")
+
+lambda <- fs_turnover %>% features(Turnover, features = guerrero) %>%
+   pull(lambda_guerrero)
+lambda
+
+fs_logtransformed <- fs_turnover %>%
+  mutate(log_turnover = log(Turnover))
+
+fs_logtransformed %>% autoplot(log_turnover) + ggtitle("Log Transformation of Victorian Food-Service Turnovers") +
+  ylab("$AUD (millions)")
+
+fs_turnover %>%  autoplot(box_cox(Turnover, lambda)) + ggtitle("Box-cox Transformation of Victorian Food-Service Turnovers ")
+```
+We can see that performing Wilcoxon test we get a lambda of -0.29. We do not see
+a major difference in both the log and box-cox transformation, as both of the plots 
+appear more linear compared to the original data. This indicates our variance
+has been stabilised. I will be going for a log transformation since there is not 
+much difference throughout the rest of the analysis. 
+
+# Exploring Forecasting Models
+Now we are going to compare three forecasting models to see which performs the best at predicting the turnovers of the years. 
+First we will split our data into training and validation sets. 
+
+```{r}
+#training 1982 - 2019
+fs_train <- fs_logtransformed %>% slice(1:453)
+#test 2020- present 
+fs_test <- fs_logtransformed %>%
+  filter(year(Month) >= 2020)
+```
+
+## Seasonal Naive vs drift model 
+I have opted for a seasonal naive method, making an assumption that most customers
+will be dining out during spring-summer seasonal and hence we may notice some seasonal
+trends. A drift method is also considered because as we observed before, there 
+has been a constant increase over time. 
+```{r}
+fit_train <- fs_train %>%
+  model(
+    snaive = SNAIVE(log(Turnover)),
+    drift = RW(log(Turnover) ~ drift())
+  )
+fit_train %>%  glance()
+
+fc_test <- fit_train %>%
+  forecast(h = "2 years")
+fc_test %>% autoplot(fs_turnover, alpha=0.6)
+
+fit_train %>% accuracy() %>% dplyr::select(MAE, RMSE, MAPE, MASE) %>% kable(booktabs = TRUE,
+                                  digits = 3) %>%
+    row_spec(2, hline_after = TRUE)
+fc_test %>% accuracy(fs_turnover) %>% dplyr::select(MAE, RMSE, MAPE, MASE) %>% kable(booktabs = TRUE,
+                                  digits = 3) %>%
+    row_spec(2, hline_after = TRUE)
+```
+It seems the drift method has a lower sigma^2 and RMSE suggesting it may be fitting the historical data better. However, if seasonal patterns are significant and you need to forecast turnover for food services, a method that accounts for both trend and seasonality would be more suitable. Observing the plot we can see the drift capture the trend over time.
+Therefore a drift model will be considered. Now we will take a look at the residuals. 
+
+```{r}
+fit_snaive <- fs_turnover %>%
+  model(
+    drift = RW(log(Turnover) ~ drift()),
+  )
+fit_snaive %>%
+  gg_tsresiduals()
+```
+The residuals do not indicate any pattern of some sort over time, suggesting that our variance of errors are homoskedastic.
+There are a couple of small outliers on both sides in the normal distribution plot. Regarding the ACF plot, the lags
+are within the confidence bounds, suggesting there is no significant autocorrelation in the residuals at different lag times. 
+
+### Generating Forecast with the drift model 
+
+```{r}
+turnover_benchmark_fit <-  fs_train %>%
+  model(drift = RW(log(Turnover) ~ drift()))
+
+#forecast 3 years from dec 2019 since our data ends on november 2023. 
+turnover_benchmark_fc <- turnover_benchmark_fit %>%
+  forecast(h = '4 years')  
+
+turnover_benchmark_fc %>% autoplot(fs_turnover) +
+  labs(title = "Drift: Turnover for Food Services in Victoria",
+       y = "$AUD (millions)") +
+  guides(colour = guide_legend(title = "Forecast"))
+
+
+turnover_benchmark_fc %>% autoplot(fs_test) +
+  labs(title = "Drift: Turnover forecast for Food Services in Victoria",
+       y = "$AUD (millions)") +
+  guides(colour = guide_legend(title = "Forecast"))
+
+benchmark_point_intervals <- fs_train%>%
+  model(drift = RW(log(Turnover) ~ drift())) %>%
+  forecast(h = '4 years') %>%
+  hilo()
+print(head(benchmark_point_intervals))%>% kable(booktabs = TRUE,
+                                  digits = 3) %>%
+    row_spec(2, hline_after = TRUE)
+```
+We can see that our forecasted plot shows a constant upward trend over time.We can als observe forecasted turnover statistics. For example, in January 2020, the forecasted turnover is 1084 million with an 80% prediction interval between approximately 984 and 1188 million, and a 95% interval between 936 and 1249 million.
+
+However, the plot doesn't show any seasonal adjustments or account for potential cyclical events that could impact turnover (like holidays or economic changes). Other models are to be considered. 
+
+
+## Evaluatig Exponential Smoothing (ETS) 
+```{r}
+fit_ets <- fs_turnover %>%
+  model(ETS(log(Turnover)))
+report(fit_ets) 
+
+```
+R has given us an ETS(M,A,A) model, assuming that our model has an additive trend and additive seasonality. lpha is the smoothing parameter for the level, which is very close to 1, suggesting a strong weighting on recent observations for estimating the level of the series.The smoothing parameter for alpha is close to 1, suggesting strong weighting on recent observations. Our beta is also very small, indicating tha the trend does not change drastically. 
+
+
+```{r}
+components(fit_ets) %>% autoplot()
+```
+We can further observe our slow slowly decreases over time with this model and our seasonality peaks are
+almost identical. 
+
+```{r}
+#ETS-  MAM c
+ETS_fit <- fs_train %>%
+  model(
+    hw_multi = ETS(log(Turnover) ~ error("M") + trend("A") + season("M")),
+    no_trend = ETS(log(Turnover) ~ error("M") + trend("N") + season("M")))
+report(ETS_fit)
+
+```
+Rather than using R's suggested model, I have opted for holt-winters multiplicative model and no trend model to see if
+there is any difference. We can see that the AICc value is much lower for the hw multiplicative model. Thus I will 
+use this model for further forecasting analysis. 
+```{r}
+ETS_fit <- fs_train %>%
+  model(
+    ETS(log(Turnover) ~ error("M") + trend("A") + season("M")))
+ETS_fc <- ETS_fit %>%
+  forecast(h = '4 years')
+
+ETS_fc  %>% autoplot(filter(fs_turnover, year(Month)>2019))  +  
+  labs(title = "ETS(M,A,M) : Turnover for Food Services in Victoria",
+       y = "$AUD (millions)") +
+  guides(colour = guide_legend(title = "Forecast"))
+
+ETS_point_intervals <- ETS_fit %>%
+  forecast(h= '4 years')
+print(head(ETS_point_intervals))%>% kable(booktabs = TRUE,
+                                  digits = 3) %>%
+    row_spec(2, hline_after = TRUE)
+```
+Compared to the drift model previsouly, our forecasted pattern is much better. This time it accounts for for the seasonality
+peaks around the month of January with a steady but stable trend over time as indicated by the widths of the peaks. 
+
+## ARIM
+Now we will move onto ARIMA modelling.
+AR: captures the relationship between an observation and lagged observation.
+I: difference of raw observations
+MA: combination of pass error terms. 
+
+Before modelling, we will have to transform our data to account for  seasonality difference. 
+Further transformation  
+```{r}
+fs_turnover %>% autoplot(log(Turnover)  %>% 
+  difference(12))
+
+#Automatic difference selection
+fs_turnover %>% mutate(log_turnover = log(Turnover)) %>%
+  features(log_turnover, unitroot_nsdiffs) 
+
+fs_turnover %>% autoplot(log(Turnover)  %>% 
+  difference(12) %>% difference (1)) 
+
+fs_turnover %>% gg_tsdisplay(log(Turnover) %>% difference(12) %>% difference(),
+                           plot_type = 'partial')
+```
+We can observe the following: 
+* non-seasonal spikes in the PACF: AR(2)
+* seasonal MA(1) due to the large spike at 12 in the ACF
+Hence the model that I chosen is: ARIMA(2,1,0)(0,1,1)
+
+```{r}
+arima_210_011 <- fs_turnover %>% model(
+  ARIMA(log(Turnover)~pdq(2,1,0)+PDQ(0,1,1))
+  )
+arima_210_011 %>% report()
+arima_210_011 %>% gg_tsresiduals()
+augment(arima_210_011) %>% features(.innov, ljung_box, lag=24, dof=3)
+augment(arima_210_011) %>% gg_tsdisplay(.innov, plot_type = 'partial')
+
+```
+### Other models worth considering:
+* MA(2): 2 spikes in ACF plot: ARIMA(0,1,2)(0,1,1)
+* AR(4): large spike in ACF: ARIMA(4,1,0)(0,1,1)
+* AR(2)MA(2): ARIMA(2,1,2)(0,1,1)
+```{r}
+arima.models <- fs_turnover %>% model(
+  arima_210_011 = ARIMA(log(Turnover)~pdq(2,1,0)+PDQ(0,1,1)),
+  arima_012_011 = ARIMA(log(Turnover)~pdq(0,1,2)+PDQ(0,1,1)),
+  arima_410_011 = ARIMA(log(Turnover)~pdq(4,1,0)+PDQ(0,1,1)),
+  arima_212_011 = ARIMA(log(Turnover)~pdq(2,1,2)+PDQ(0,1,1))
+  )
+arima.models %>%  glance() %>% select(.model, AIC, AICc, BIC)
+```
+Comparing the models that I have manually chosen, ARIMA(2,1,2)(0,1,1) has the lowest AICc value. Before using this
+model to forecast, it is worth considering the model R has chosen for us.
+
+The auto.arima() function is useful, but anything automated can be a little dangerous!
+
+```{r}
+arima_models_auto <- fs_turnover %>%
+  model(arima_auto1 = ARIMA(log(Turnover)),
+        arima_auto2 = ARIMA(log(Turnover), stepwise = FALSE, approximation = FALSE)
+  )
+arima_models_auto %>% select(arima_auto1) %>%  report()
+arima_models_auto %>% select(arima_auto2) %>%  report()
+```
+
+The auto funcitonchose an ARIMA(0,1,4)(2,0,0)[12] for us. Putting all our models together we get: 
+```{r}
+fit_all <- fs_turnover %>%
+  model(
+    arima_210_011 = ARIMA(log(Turnover)~pdq(2,1,0)+PDQ(0,1,1)),
+  arima_012_011 = ARIMA(log(Turnover)~pdq(0,1,2)+PDQ(0,1,1)),
+  arima_410_011 = ARIMA(log(Turnover)~pdq(4,1,0)+PDQ(0,1,1)),
+  arima_212_011 = ARIMA(log(Turnover)~pdq(2,1,2)+PDQ(0,1,1)),
+  arima_212_200 = ARIMA(log(Turnover), stepwise = FALSE, approx = FALSE)
+  )
+glance(fit_all)
+
+```
+Out of all the models, ARIMA(2,1,2)(2,0,0) still has the lowest AICc value of -1396. Hence moving foward we will use
+this model to forecast. 
+
+```{r}
+
+#ARIMA - best arima model ARIMA(2,1,2)(0,1,1)
+fs_train %>% autoplot(log(Turnover)  %>% 
+  difference(12) %>% difference (1))
+
+arima_fit <- fs_train %>%
+  model(
+    arima012111 = ARIMA(log(Turnover) ~ pdq(2,1,2) + PDQ(0,1,1))
+  )
+
+arima_fc <- arima_fit %>%
+  dplyr::select(arima012111) %>%
+  forecast(h =47)
+
+arima_fc %>% autoplot(filter(fs_turnover, year(Month)>2019)) +
+   labs(title = "ARIMA(2,1,2)(0,1,1): Turnover for Department Stores in Western Australia",
+       y = "$AUD (millions)") +
+  guides(colour = guide_legend(title = "Forecast"))
+
+arima_point_intervals <- arima_fit %>%
+  forecast(h= '3 years') %>%
+  hilo() 
+print(head(arima_point_intervals))%>% kable(booktabs = TRUE,
+                                  digits = 3) %>%
+    row_spec(2, hline_after = TRUE)
+
+
+```
+Looking at the forecasted plot, it seems quite similar to our ETS model that we plotted previously. To determine
+which model we should forecast overall, all three chosen models will not be evaluated using the validation set. 
+## Choosing Overall Model
+
+```{r}
+models_final <- fs_train %>% model(
+  drift = RW(log(Turnover) ~ drift()),
+  ETS_MAM=ETS(Turnover~error("M")+trend("A")+season("M")),
+  ARIMA_212_011=ARIMA(log(Turnover)~pdq(2,1,2)+PDQ(0,1,1))
+)
+models_final %>%
+  forecast(h=48) %>%
+  autoplot(fs_turnover %>% filter(year(Month)>=2020), alpha=0.8)
+
+accuracy_benchmark <- accuracy(turnover_benchmark_fc, fs_test) %>%
+  mutate(Model = "Drift") %>%
+  select(Model, .type, ME, RMSE, MAPE)
+
+accuracy_ETS <- accuracy(ETS_fc, fs_test) %>%
+  mutate(Model = "ETS") %>%
+  select(Model, .type, ME, RMSE, MAPE)
+
+accuracy_arima <- accuracy(arima_fc, fs_test) %>%
+  mutate(Model = "ARIMA") %>%
+  select(Model, .type, ME, RMSE, MAPE)
+
+combined_accuracy <- bind_rows(accuracy_benchmark, accuracy_ETS, accuracy_arima)
+
+kable(combined_accuracy, format = "markdown", caption = "Forecasting Models Accuracy Metrics")
+
+accuracy_benchmark <- accuracy(turnover_benchmark_fc, fs_test) %>%
+  mutate(Model = "Drift") %>%
+  select(Model, .type, ME, RMSE, MAPE)
+
+accuracy_ETS <- accuracy(ETS_fc, fs_test) %>%
+  mutate(Model = "ETS") %>%
+  select(Model, .type, ME, RMSE, MAPE)
+
+accuracy_arima <- accuracy(arima_fc, fs_test) %>%
+  mutate(Model = "ARIMA") %>%
+  select(Model, .type, ME, RMSE, MAPE)
+
+combined_accuracy <- bind_rows(accuracy_benchmark, accuracy_ETS, accuracy_arima)
+
+kable(combined_accuracy, format = "markdown", caption = "Forecasting Models Accuracy Metrics")
+```
+Forecasting on our current time period, we can see that the ARIMA and ETS model 
+have similar patterns, but our ETS model has a lower RMSE value.
+
+### Forecasting next 3 years
+```{r}
+all_model_fit <- fs_turnover %>%
+  model(
+    drift = RW(log(Turnover) ~ drift()),
+    arima012111 = ARIMA(log(Turnover) ~ pdq(2,1,2) + PDQ(1,1,1)),
+    hw_multi = ETS(Turnover ~ error("M") + trend("A") + season("M"))
+        )
+all_model_fc <- all_model_fit %>%
+  forecast(h=24)
+
+all_model_fc  %>% 
+  autoplot(filter(fs_turnover, year(Month)>=2020), alpha=0.6) +
+  ggtitle("Turnover Forecast Prediction 3 year onwards")
+
+accuracy_threeyears <- models_final %>%
+  forecast(h = "3 years") %>%
+  accuracy(fs_test) %>%
+  select(.model, .type, ME, RMSE, MAPE)
+
+kable(accuracy_threeyears, format = "markdown", caption = "Forecasting Accuracy Metrics for 3 Years")
+```
+Drift: Widest prediction intervals as indicated by the large shaded green area. This indicates a higher level of
+uncertainty in its forecasts.
+
+ARIMA: Narrower prediction interval as its red shade is smaller, indicated lower level of uncertainty. 
+
+ETS(M,A,M) Holt Winters Multiplicative: Much narrower prediction that expands over time towards the end. This indicates its increasing
+in uncertainty as we project further into the future. 
+
+If we were to forecast over the next three years however, the RMSE value is much lower for the ARIMA model. What we have noticed is that the ETS and ARIMA RMSE values are quite close to each other, so either of these two models can be considered to forecast.
+
