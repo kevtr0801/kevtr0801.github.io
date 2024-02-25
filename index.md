@@ -7,10 +7,11 @@ Ever wondered what makes a coffee truly great? In this project, we dive into the
 
 [View code on Colab](https://colab.research.google.com/drive/17e4CyHPjsensGdyJDm25B32ND1vI2wDo?usp=sharing)
 
-<p align="center">
-  <img src="images/heatmap.png" width="50%" height="auto" style="display: inline-block;"/>
-  <img src="images/acidity.png" width="50%" height="auto" style="display: inline-block;"/>
-</p>
+<div align="center">
+  <img src="images/heatmap.png" width="49%" height="auto"/>
+  <img src="images/acidity.png" width="40%" height="auto"/>
+</div>
+
 
 
 ![Python](https://img.shields.io/badge/Python-3776AB?style=for-the-badge&logo=python&logoColor=white)
@@ -60,10 +61,10 @@ Customer reviews have become a cornerstone for consumer decision-making. In this
 
 [View Code on Colab](https://colab.research.google.com/drive/1fTI68pxkJyydkzL9ix2HFqkUyjhI7Mv1?usp=sharing)
 
-<p>
-  <img src="images/wordcloud.png" width="50%" height="100" />
-  <img src="images/ts.png" width="50%" height="100" /> 
-</p>
+<div align="center">
+  <img src="images/wordcloud.png" width="49%" />
+  <img src="images/ts.png" width="49%" /> 
+</div>
 
 
 
