@@ -1,8 +1,7 @@
 ## Portfolio
 
 ---
-
-### Semantic Analysis of Amazon Customer Reviews Using NLP
+### <img src="https://cdn0.iconfinder.com/data/icons/social-media-2275/64/amazon-512.png" style="height: 20px; width: 20px;"/> Semantic Analysis of Amazon Customer Reviews Using NLP
 Customer reviews have become a cornerstone for consumer decision-making. In this project I used Natural Language Processing (NLP), to detect the customer's sentimental value of the product. This involves handling raw dataset and parsing it into a dataframe, NLP processess such as lemmatization and using WordClouds to observe what customers are saying for a certain product. 
 
 <p float="left">
@@ -20,7 +19,7 @@ Customer reviews have become a cornerstone for consumer decision-making. In this
 
 ---
 
-### The Business of Eating: Forecasting Trends in Victoria's Food Industry
+### <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQL0MbUrCY5rsrG3sAEiF6qWDRHlLpHnI0ooEmIkgWoUyElRLGZF2c85PnZlyDpie0UK28&usqp=CAU" style="height: 20px; width: 20px;"/> The Business of Eating: Forecasting Trends in Victoria's Food Industry
 This project embarks on an analytical journey to forecast the future of food service turnovers in Victoria Australia. I will be using Seasonal Naive, Exponential Smoothing (ETS) and AutoRegressive Integrated Moving Average (ARIMA) forecasting models to provide a comprehensive outlook onthe movement in food service turnovers.
 <p>
   <img src="images/forecast-models.png" width="30%" height="100" />
@@ -35,7 +34,7 @@ This project embarks on an analytical journey to forecast the future of food ser
 
 ---
 
-### Heart Failure Prediction Using KNN, Decision Trees, and Support Vector Machines
+### <img src="https://img.freepik.com/premium-vector/cute-cat-drinking-coffee-cartoon-illustration_274619-830.jpg" style="height: 20px; width: 20px;"/>  Heart Failure Prediction Using KNN, Decision Trees, and Support Vector Machines
 This small project focuses on predicting heart failure risk using machine learning algorithms. Heart failure is a complex clinical syndrome with high morbidity and mortality rates. Early detection and timely intervention can significantly improve patient prognosis. Therefore I hope this project harnesses the power of data science to aid in such early detection by analyzing clinical data through three distinct machine learning models: K-Nearest Neighbors (KNN), Decision Trees, and Support Vector Machines (SVM).
 
 [View Code on Colab](https://colab.research.google.com/drive/1-i9iOU26G-RsD1Yn5TEjz5NIvrweUOIo?usp=sharing)
@@ -70,6 +69,7 @@ Ever wondered what makes a coffee truly great? In this project, we dive into the
 ![statsmodels](https://img.shields.io/badge/-statsmodels-blue?style=for-the-badge&logoColor=white)
 
 ---
+<!-- 
 
 ### Predicting Autism in Children using Decision Trees
 <p float="left">
@@ -123,7 +123,6 @@ Customer reviews have become a cornerstone for consumer decision-making. In this
 ---
 
 
-<!-- 
 - [Project 1 Title](http://example.com/)
 - [Project 2 Title](http://example.com/)
 - [Project 3 Title](http://example.com/)
