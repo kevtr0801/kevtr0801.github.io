@@ -8,8 +8,8 @@ Ever wondered what makes a coffee truly great? In this project, we dive into the
 [View code on Colab](https://colab.research.google.com/drive/17e4CyHPjsensGdyJDm25B32ND1vI2wDo?usp=sharing)
 
 <div align="center">
-  <img src="images/heatmap.png" width="49%" height="auto"/>
-  <img src="images/acidity.png" width="40%" height="auto"/>
+  <img src="images/heatmap.png" width="55%" height="auto"/>
+  <img src="images/acidity.png" width="44%" height="auto"/>
 </div>
 
 
@@ -29,7 +29,7 @@ This project embarks on an analytical journey to forecast the future of food ser
 [View Code on Rmarkdown](https://github.com/kevtr0801/kevtr0801.github.io/blob/master/pdf/food-turnover-project.pdf)
 
 <p align="center">
-  <img src="images/forecast-mod.png" width="80%" />
+  <img src="images/forecast-mod.png" width="90%" />
 </p>
 
 ![RStudio](https://img.shields.io/badge/RStudio-4285F4?style=for-the-badge&logo=rstudio&logoColor=white)
@@ -42,11 +42,12 @@ This small project focuses on predicting heart failure risk using machine learni
 
 [View Code on Colab](https://colab.research.google.com/drive/1-i9iOU26G-RsD1Yn5TEjz5NIvrweUOIo?usp=sharing)
 
-<p>
-  <img src="images/pruned-tree.png" width="20%" height="auto" />
-  <img src="images/rf-var.png" width="40%" height="auto" />
-  <img src="images/svm-plot.png" width="32%" height="auto" /> 
-</p>
+<div align="center">
+  <img src="images/pruned-tree.png" width="50%" height="auto" />
+  <img src="images/rf-var.png" width="50%" height="auto" />
+  <img src="images/svm-plot.png" width="50%" height="auto" /> 
+</div>
+
 
 ![RStudio](https://img.shields.io/badge/RStudio-4285F4?style=for-the-badge&logo=rstudio&logoColor=white)
 ![FNN](https://img.shields.io/badge/-FNN-FF69B4?style=for-the-badge&logoColor=white)
@@ -62,8 +63,8 @@ Customer reviews have become a cornerstone for consumer decision-making. In this
 [View Code on Colab](https://colab.research.google.com/drive/1fTI68pxkJyydkzL9ix2HFqkUyjhI7Mv1?usp=sharing)
 
 <div align="center">
-  <img src="images/wordcloud.png" width="45%" />
-  <img src="images/ts.png" width="49%" /> 
+  <img src="images/wordcloud.png" width="47%" />
+  <img src="images/ts.png" width="51%" /> 
 </div>
 
 
