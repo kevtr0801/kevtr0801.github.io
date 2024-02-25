@@ -34,20 +34,21 @@ Customer reviews have become a cornerstone for consumer decision-making. In this
 
 ---
 
-### Predicting Autism in Children using Decision Trees
-<p float="left">
-  <img src="images/eth-clas.png" width="30%" height="100" />
-  <img src="images/tree.png" width="30%" height="100" /> 
+### Heart Failure Prediction Using KNN, Decision Trees, and Support Vector Machines
+[View Code on Colab](https://colab.research.google.com/drive/1-i9iOU26G-RsD1Yn5TEjz5NIvrweUOIo?usp=sharing)
+<p>
+  <img src="images/knn-heart.png" width="30%" height="auto" />
+  <img src="images/heart-tree2.png" width="30%" height="auto" />
+  <img src="images/svm-plot.png" width="30%" height="auto" /> 
 </p>
 
-[View Code on Colab](https://colab.research.google.com/drive/1rb8jteWVyb2elwHAeDdrGXMfFHXKfUBO?usp=sharing)
-
 ![RStudio](https://img.shields.io/badge/RStudio-4285F4?style=for-the-badge&logo=rstudio&logoColor=white)
-![rpart](https://img.shields.io/badge/-rpart-FF5733?style=for-the-badge&logoColor=white)
-![caret](https://img.shields.io/badge/-caret-33FF57?style=for-the-badge&logoColor=white)
-![ranger](https://img.shields.io/badge/-ranger-57FFC7?style=for-the-badge&logoColor=white)
+![FNN](https://img.shields.io/badge/-FNN-FF69B4?style=for-the-badge&logoColor=white)
+![forecast](https://img.shields.io/badge/-forecast-7FFFD4?style=for-the-badge&logoColor=white)
+![e1071](https://img.shields.io/badge/-e1071-FFD700?style=for-the-badge&logoColor=white)
+![pROC](https://img.shields.io/badge/-pROC-6495ED?style=for-the-badge&logoColor=white)
 
-
+---
 
 ### Coffee Quality Analysis through Logistic Regression
 [View code on Colab]()
@@ -63,21 +64,25 @@ Customer reviews have become a cornerstone for consumer decision-making. In this
 ![seaborn](https://img.shields.io/badge/-seaborn-9B59B6?style=for-the-badge&logoColor=white)
 ![statsmodels](https://img.shields.io/badge/-statsmodels-blue?style=for-the-badge&logoColor=white)
 
+---
 
-
-### Heart Failure Prediction Using KNN, Decision Trees, and Support Vector Machines
-[View Code on Colab](https://colab.research.google.com/drive/1-i9iOU26G-RsD1Yn5TEjz5NIvrweUOIo?usp=sharing)
-<p>
-  <img src="images/knn-heart.png" width="30%" height="auto" />
-  <img src="images/heart-tree2.png" width="30%" height="auto" />
-  <img src="images/svm-plot.png" width="30%" height="auto" /> 
+### Predicting Autism in Children using Decision Trees
+<p float="left">
+  <img src="images/eth-clas.png" width="30%" height="100" />
+  <img src="images/tree.png" width="30%" height="100" /> 
 </p>
 
+[View Code on Colab](https://colab.research.google.com/drive/1rb8jteWVyb2elwHAeDdrGXMfFHXKfUBO?usp=sharing)
+
 ![RStudio](https://img.shields.io/badge/RStudio-4285F4?style=for-the-badge&logo=rstudio&logoColor=white)
-![FNN](https://img.shields.io/badge/-FNN-FF69B4?style=for-the-badge&logoColor=white)
-![forecast](https://img.shields.io/badge/-forecast-7FFFD4?style=for-the-badge&logoColor=white)
-![e1071](https://img.shields.io/badge/-e1071-FFD700?style=for-the-badge&logoColor=white)
-![pROC](https://img.shields.io/badge/-pROC-6495ED?style=for-the-badge&logoColor=white)
+![rpart](https://img.shields.io/badge/-rpart-FF5733?style=for-the-badge&logoColor=white)
+![caret](https://img.shields.io/badge/-caret-33FF57?style=for-the-badge&logoColor=white)
+![ranger](https://img.shields.io/badge/-ranger-57FFC7?style=for-the-badge&logoColor=white)
+
+
+
+
+---
 
 
 
