@@ -62,7 +62,7 @@ Customer reviews have become a cornerstone for consumer decision-making. In this
 [View Code on Colab](https://colab.research.google.com/drive/1fTI68pxkJyydkzL9ix2HFqkUyjhI7Mv1?usp=sharing)
 
 <div align="center">
-  <img src="images/wordcloud.png" width="49%" />
+  <img src="images/wordcloud.png" width="45%" />
   <img src="images/ts.png" width="49%" /> 
 </div>
 
