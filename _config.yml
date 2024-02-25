@@ -1,13 +1,16 @@
-title: Kevin T # your name (or website title) here
+title: Kevin Tran # your name (or website title) here
 logo: "" # your photo (or logo) here
 description: > # your text below (remove <br> elements if you don't need line breaks)
-  A student studying data science at Monash University. I hope this portfolio  
+  Data Science Student studying at Monash University. I hope you enjoy exploring a couple of my projects 
+<img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQbFdYPcObOBMR7SEQIKxn6J7wQ6oR6kgBa-g&usqp=CAU" style="height: 20px; width: 20px;"/> 
   <br><br>
-  Second description 
   <br><br>
-  <a href="https://www.linkedin.com/in/example/">View My LinkedIn Profile</a> 
+  <a href="https://www.linkedin.com/in/kevin-tran-974564192/</a> 
   
 remote_theme: pages-themes/minimal@v0.2.0
 plugins:
 - jekyll-remote-theme
 google_analytics: UA-000000-0 # your Google Analytics tracking ID here
+
+
+
