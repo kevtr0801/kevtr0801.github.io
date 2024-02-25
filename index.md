@@ -7,7 +7,7 @@ Ever wondered what makes a coffee truly great? In this project, we dive into the
 [View code on Colab]()
 <p float="left">
   <img src="images/heatmap.png" width="30%" height="100" />
-  <img src="images/rf-var.png" width="30%" height="100" />
+  <img src="images/acidity.png" width="30%" height="100" />
 </p>
 
 ![Python](https://img.shields.io/badge/Python-3776AB?style=for-the-badge&logo=python&logoColor=white)
@@ -29,7 +29,6 @@ This project embarks on an analytical journey to forecast the future of food ser
 ![RStudio](https://img.shields.io/badge/RStudio-4285F4?style=for-the-badge&logo=rstudio&logoColor=white)
 ![FPP3](https://img.shields.io/badge/FPP3-7FFFD4?style=for-the-badge&logoColor=white)
 
-
 ---
 
 ### <img src="https://img.freepik.com/premium-vector/cute-cat-drinking-coffee-cartoon-illustration_274619-830.jpg" style="height: 20px; width: 20px;"/>  Heart Failure Prediction Using KNN, Decision Trees, and Support Vector Machines
@@ -38,6 +37,7 @@ This small project focuses on predicting heart failure risk using machine learni
 [View Code on Colab](https://colab.research.google.com/drive/1-i9iOU26G-RsD1Yn5TEjz5NIvrweUOIo?usp=sharing)
 <p>
   <img src="images/pruned-tree.png" width="30%" height="auto" />
+  <img src="images/vf-var.png" width="30%" height="auto" />
   <img src="images/svm-plot.png" width="30%" height="auto" /> 
 </p>
 
