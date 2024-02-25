@@ -37,7 +37,7 @@ This small project focuses on predicting heart failure risk using machine learni
 [View Code on Colab](https://colab.research.google.com/drive/1-i9iOU26G-RsD1Yn5TEjz5NIvrweUOIo?usp=sharing)
 <p>
   <img src="images/pruned-tree.png" width="30%" height="auto" />
-  <img src="images/vf-var.png" width="30%" height="auto" />
+  <img src="images/rf-var.png" width="30%" height="auto" />
   <img src="images/svm-plot.png" width="30%" height="auto" /> 
 </p>
 
