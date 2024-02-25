@@ -4,11 +4,14 @@
 ### <img src="https://img.freepik.com/premium-vector/cute-cat-drinking-coffee-cartoon-illustration_274619-830.jpg" style="height: 20px; width: 20px;"/> Coffee Quality Analysis through Logistic Regression 
 
 Ever wondered what makes a coffee truly great? In this project, we dive into the data behind the brew, analyzing aroma, flavor, sweetness, altitude, and acidity to uncover the secrets of high-quality coffee. Using logistic regression, we'll sift through the beans and the buzz to predict what sets apart the best cups from the rest. Prior to applying logistic regresion, a couple of columns are cleaned and visualised to give us an insight about the coffee dataset.
-[View code on Colab]()
-<p float="left">
-  <img src="images/heatmap.png" width="50%" height="auto" />
-  <img src="images/acidity.png" width="50%" height="auto" />
+
+[View code on Colab](https://colab.research.google.com/drive/17e4CyHPjsensGdyJDm25B32ND1vI2wDo?usp=sharing)
+
+<p align="center">
+  <img src="images/heatmap.png" width="50%" height="auto" style="display: inline-block;"/>
+  <img src="images/acidity.png" width="50%" height="auto" style="display: inline-block;"/>
 </p>
+
 
 ![Python](https://img.shields.io/badge/Python-3776AB?style=for-the-badge&logo=python&logoColor=white)
 ![Jupyter Notebook](https://img.shields.io/badge/jupyter-%23FA0F00.svg?style=for-the-badge&logo=jupyter&logoColor=white)
@@ -21,11 +24,13 @@ Ever wondered what makes a coffee truly great? In this project, we dive into the
 
 ### <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQL0MbUrCY5rsrG3sAEiF6qWDRHlLpHnI0ooEmIkgWoUyElRLGZF2c85PnZlyDpie0UK28&usqp=CAU" style="height: 20px; width: 20px;"/> The Business of Eating: Forecasting Trends in Victoria's Food Industry
 This project embarks on an analytical journey to forecast the future of food service turnovers in Victoria Australia. I will be using Seasonal Naive, Exponential Smoothing (ETS) and AutoRegressive Integrated Moving Average (ARIMA) forecasting models to provide a comprehensive outlook onthe movement in food service turnovers.
-<p align="center">
-  <img src="images/forecast-mod.png" width="50%" />
-</p>
 
 [View Code on Rmarkdown](https://github.com/kevtr0801/kevtr0801.github.io/blob/master/pdf/food-turnover-project.pdf)
+
+<p align="center">
+  <img src="images/forecast-mod.png" width="80%" />
+</p>
+
 ![RStudio](https://img.shields.io/badge/RStudio-4285F4?style=for-the-badge&logo=rstudio&logoColor=white)
 ![FPP3](https://img.shields.io/badge/FPP3-7FFFD4?style=for-the-badge&logoColor=white)
 
@@ -35,10 +40,11 @@ This project embarks on an analytical journey to forecast the future of food ser
 This small project focuses on predicting heart failure risk using machine learning algorithms. Heart failure is a complex clinical syndrome with high morbidity and mortality rates. Early detection and timely intervention can significantly improve patient prognosis. Therefore I hope this project harnesses the power of data science to aid in such early detection by analyzing clinical data through three distinct machine learning models: K-Nearest Neighbors (KNN), Decision Trees, and Support Vector Machines (SVM).
 
 [View Code on Colab](https://colab.research.google.com/drive/1-i9iOU26G-RsD1Yn5TEjz5NIvrweUOIo?usp=sharing)
+
 <p>
-  <img src="images/pruned-tree.png" width="30%" height="auto" />
-  <img src="images/rf-var.png" width="30%" height="auto" />
-  <img src="images/svm-plot.png" width="30%" height="auto" /> 
+  <img src="images/pruned-tree.png" width="20%" height="auto" />
+  <img src="images/rf-var.png" width="40%" height="auto" />
+  <img src="images/svm-plot.png" width="32%" height="auto" /> 
 </p>
 
 ![RStudio](https://img.shields.io/badge/RStudio-4285F4?style=for-the-badge&logo=rstudio&logoColor=white)
@@ -52,12 +58,14 @@ This small project focuses on predicting heart failure risk using machine learni
 ### <img src="https://cdn0.iconfinder.com/data/icons/social-media-2275/64/amazon-512.png" style="height: 20px; width: 20px;"/> Semantic Analysis of Amazon Customer Reviews Using NLP
 Customer reviews have become a cornerstone for consumer decision-making. In this project I used Natural Language Processing (NLP), to detect the customer's sentimental value of the product. This involves handling raw dataset and parsing it into a dataframe, NLP processess such as lemmatization and using WordClouds to observe what customers are saying for a certain product. 
 
-<p float="left">
-  <img src="images/wordcloud.png" width="40%" height="100" />
-  <img src="images/ts.png" width="40%" height="100" /> 
+[View Code on Colab](https://colab.research.google.com/drive/1fTI68pxkJyydkzL9ix2HFqkUyjhI7Mv1?usp=sharing)
+
+<p>
+  <img src="images/wordcloud.png" width="50%" height="100" />
+  <img src="images/ts.png" width="50%" height="100" /> 
 </p>
 
-[View Code on Colab](https://colab.research.google.com/drive/1fTI68pxkJyydkzL9ix2HFqkUyjhI7Mv1?usp=sharing)
+
 
 ![Python](https://img.shields.io/badge/Python-3776AB?style=for-the-badge&logo=python&logoColor=white)
 ![Jupyter Notebook](https://img.shields.io/badge/jupyter-%23FA0F00.svg?style=for-the-badge&logo=jupyter&logoColor=white)
