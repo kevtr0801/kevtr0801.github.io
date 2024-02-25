@@ -1,8 +1,9 @@
 title: Kevin Tran # your name (or website title) here
 logo: "" # your photo (or logo) here
 description: > # your text below (remove <br> elements if you don't need line breaks)
-  Data Science Student studying at Monash University. I hope you enjoy exploring a couple of my projects 
-<img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQbFdYPcObOBMR7SEQIKxn6J7wQ6oR6kgBa-g&usqp=CAU" style="height: 20px; width: 20px;"/> 
+  Student currently studying a Masters in Data Science at Monash University, Australia. I am driven by a profound curiosity and a keen analytical mindset, aiming to transform complex datasets into compelling narratives.
+  I hope you enjoy exploring a couple of my data science projects. 
+  
   <br><br>
   <br><br>
   <a href="https://www.linkedin.com/in/kevin-tran-974564192/</a> 
@@ -14,3 +15,6 @@ google_analytics: UA-000000-0 # your Google Analytics tracking ID here
 
 
 
+
+
+<img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQbFdYPcObOBMR7SEQIKxn6J7wQ6oR6kgBa-g&usqp=CAU" style="height: 20px; width: 20px;"/> 
