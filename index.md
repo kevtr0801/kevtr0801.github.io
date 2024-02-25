@@ -6,8 +6,8 @@
 Ever wondered what makes a coffee truly great? In this project, we dive into the data behind the brew, analyzing aroma, flavor, sweetness, altitude, and acidity to uncover the secrets of high-quality coffee. Using logistic regression, we'll sift through the beans and the buzz to predict what sets apart the best cups from the rest. Prior to applying logistic regresion, a couple of columns are cleaned and visualised to give us an insight about the coffee dataset.
 [View code on Colab]()
 <p float="left">
-  <img src="images/heatmap.png" width="30%" height="100" />
-  <img src="images/acidity.png" width="30%" height="100" />
+  <img src="images/heatmap.png" width="50%" height="100" />
+  <img src="images/acidity.png" width="50%" height="100" />
 </p>
 
 ![Python](https://img.shields.io/badge/Python-3776AB?style=for-the-badge&logo=python&logoColor=white)
