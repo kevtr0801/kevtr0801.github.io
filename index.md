@@ -99,6 +99,25 @@ Customer reviews have become a cornerstone for consumer decision-making. In this
 ![RStudio](https://img.shields.io/badge/RStudio-4285F4?style=for-the-badge&logo=rstudio&logoColor=white)
 ![MASS](https://img.shields.io/badge/-MASS-brightgreen?style=for-the-badge&logoColor=white)
 
+## Portfolio
+
+---
+
+### Semantic Analysis of Amazon Customer Reviews Using NLP
+
+Customer reviews have become a cornerstone for consumer decision-making. In this project, I used Natural Language Processing (NLP) to detect the customer's sentimental value of the product. This involves handling raw datasets and parsing them into a dataframe, NLP processes such as lemmatization, and using WordClouds to observe what customers are saying for a certain product.
+
+![WordCloud](images/wordcloud.png) ![Time Series](images/ts.png)
+
+*Fig.1: Word Cloud of Customer Reviews & Fig.2: Time Series Analysis of Sentiment Over Time*
+
+[View Code on Colab](https://colab.research.google.com/drive/1fTI68pxkJyydkzL9ix2HFqkUyjhI7Mv1?usp=sharing)
+
+![Python](https://img.shields.io/badge/Python-3776AB?style=for-the-badge&logo=python&logoColor=white) ![Jupyter Notebook](https://img.shields.io/badge/jupyter-%23FA0F00.svg?style=for-the-badge&logo=jupyter&logoColor=white) ![Pandas](https://img.shields.io/badge/pandas-%23150458.svg?style=for-the-badge&logo=pandas&logoColor=white) ![NLTK](https://img.shields.io/badge/NLTK-%2300C851.svg?style=for-the-badge&logoColor=white) ![scikit-learn](https://img.shields.io/badge/scikit--learn-%23F7931E.svg?style=for-the-badge&logo=scikit-learn&logoColor=white)
+
+---
+
+
 <!-- 
 - [Project 1 Title](http://example.com/)
 - [Project 2 Title](http://example.com/)
