@@ -1,7 +1,7 @@
 ## Data Science Portfolio: Showcasing Analytics, Wrangling, and Machine Learning Models
 
 ---
-### <img src="https://img.freepik.com/premium-vector/cute-cat-drinking-coffee-cartoon-illustration_274619-830.jpg" style="height: 20px; width: 20px;"/> Coffee Quality Analysis through Logistic Regression 
+### <img src="https://img.freepik.com/premium-vector/cute-cat-drinking-coffee-cartoon-illustration_274619-830.jpg" style="height: 30px; width: 30px;"/> Coffee Quality Analysis through Logistic Regression 
 
 Ever wondered what makes a coffee truly great? In this project, we dive into the data behind the brew, analyzing aroma, flavor, sweetness, altitude, and acidity to uncover the secrets of high-quality coffee. Using logistic regression, we'll sift through the beans and the buzz to predict what sets apart the best cups from the rest. Prior to applying logistic regresion, a couple of columns are cleaned and visualised to give us an insight about the coffee dataset.
 
