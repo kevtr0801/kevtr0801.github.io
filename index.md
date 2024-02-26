@@ -36,7 +36,7 @@ This project embarks on an analytical journey to forecast the future of food ser
 ![FPP3](https://img.shields.io/badge/FPP3-7FFFD4?style=for-the-badge&logoColor=white)
 
 ---
-### <img src="https://titles.trackercdn.com/modern-warfare/db/images/ui_sticker_t9337.png?10697530" style="height: 30px; width: 30px;"/>  Heart Failure Prediction Using KNN, Decision Trees, and Support Vector Machines
+### <img src="https://titles.trackercdn.com/modern-warfare/db/images/ui_sticker_t9337.png?10697530" style="height: 30px; width: 30px;"/>  Machine Learning for the Heart: Comparing KNN, Decision Trees, and SVM in Predicting Heart Failure
 This small project focuses on predicting heart failure risk using machine learning algorithms. Heart failure is a complex clinical syndrome with high morbidity and mortality rates. Early detection and timely intervention can significantly improve patient prognosis. Therefore I hope this project harnesses the power of data science to aid in such early detection by analyzing clinical data through three distinct machine learning models: K-Nearest Neighbors (KNN), Decision Trees, and Support Vector Machines (SVM).
 
 [View Code on Colab](https://colab.research.google.com/drive/1-i9iOU26G-RsD1Yn5TEjz5NIvrweUOIo?usp=sharing)
