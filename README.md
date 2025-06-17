@@ -32,7 +32,7 @@ Ever wondered what makes a coffee truly great? In this project, I dive into the 
 
 ---
 
-### <img src="https://img.freepik.com/premium-vector/man-having-heart-attack-illustration_598748-112.jpg?semt=ais_hybrid&w=740" style="height: 40px; width: 40px;"/> Heart Attack Rates in Japan 
+### <img src="https://img.freepik.com/premium-vector/man-having-heart-attack-illustration_598748-112.jpg?semt=ais_hybrid&w=740" style="height: 30px; width: 30px;"/> Understanding Japan’s Heart Attack Crisis
 This dashboard summarises heart attack occurrences in Japan, showing key averages (e.g., heart rate, BMI, blood pressure) and visualising how heart attacks vary by age, gender, region, health metrics, and lifestyle factors like physical activity, diet, and alcohol consumption.
 
 [View dashboard in Tableau](https://public.tableau.com/app/profile/kevin.tran7345/viz/heart-attack-v3-final/Final)
@@ -42,9 +42,9 @@ This dashboard summarises heart attack occurrences in Japan, showing key average
   <img src="images/heart_attack.png" width="100%" height="auto"/>
 </div>
 
-
-
 ![Tableau](https://img.shields.io/badge/Tableau-E97627?style=for-the-badge&logo=Tableau&logoColor=white)
+![Excel](https://img.shields.io/badge/Excel-217346?style=for-the-badge&logo=microsoft-excel&logoColor=white)
+![PostgreSQL](https://img.shields.io/badge/PostgreSQL-336791?style=for-the-badge&logo=postgresql&logoColor=white)
 
 
 ---
