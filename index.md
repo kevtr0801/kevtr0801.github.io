@@ -22,6 +22,20 @@ Ever wondered what makes a coffee truly great? In this project, I dive into the 
 ![statsmodels](https://img.shields.io/badge/-statsmodels-blue?style=for-the-badge&logoColor=white)
 
 ---
+### <img src="https://img.freepik.com/premium-vector/man-having-heart-attack-illustration_598748-112.jpg?semt=ais_hybrid&w=740" style="height: 40px; width: 40px;"/> Heart Attack Rates in Japan 
+This dashboard summarises heart attack occurrences in Japan, showing key averages (e.g., heart rate, BMI, blood pressure) and visualising how heart attacks vary by age, gender, region, health metrics, and lifestyle factors like physical activity, diet, and alcohol consumption.
+
+[View dashboard in Tableau](https://public.tableau.com/app/profile/kevin.tran7345/viz/heart-attack-v3-final/Final)
+
+
+<div align="center">
+  <img src="images/heart_attack.png" width="100%" height="auto"/>
+</div>
+
+
+
+![Tableau](https://img.shields.io/badge/Tableau-E97627?style=for-the-badge&logo=Tableau&logoColor=white)
+---
 
 ### <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQL0MbUrCY5rsrG3sAEiF6qWDRHlLpHnI0ooEmIkgWoUyElRLGZF2c85PnZlyDpie0UK28&usqp=CAU" style="height: 20px; width: 20px;"/> The Business of Eating: Forecasting Trends in Victoria's Food Industry
 This project embarks on an analytical journey to forecast the future of food service turnovers in Victoria Australia. I will be using Seasonal Naive, Exponential Smoothing (ETS) and AutoRegressive Integrated Moving Average (ARIMA) forecasting models to provide a comprehensive outlook on the movement in food service turnovers.
