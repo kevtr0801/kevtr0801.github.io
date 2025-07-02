@@ -93,7 +93,7 @@ Customer reviews have become a cornerstone for consumer decision-making. In this
 
 ---
 
-### <img src="https://cdn0.iconfinder.com/data/icons/social-media-2275/64/amazon-512.png" style="height: 20px; width: 20px;"/> Regression & Regularization on Student Math Scores
+### <img src="https://png.pngtree.com/png-vector/20190930/ourmid/pngtree-exam-icon-isolated-on-abstract-background-png-image_1764007.jpg" style="height: 20px; width: 20px;"/> Regression & Regularization on Student Math Scores
 
 This notebook explores the relationships between various factors affecting student's math scores during exams, and evaluates how well these relationships can be used to predict future outcomes. To achieve these objectives, I conducted two separate regression analyses:
 
