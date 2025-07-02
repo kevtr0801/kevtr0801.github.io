@@ -90,6 +90,30 @@ Customer reviews have become a cornerstone for consumer decision-making. In this
 
 
 ---
+
+---
+
+### <img src="https://cdn0.iconfinder.com/data/icons/social-media-2275/64/amazon-512.png" style="height: 20px; width: 20px;"/> Regression & Regularization on Student Math Scores
+
+This notebook explores the relationships between various factors affecting student's math scores during exams, and evaluates how well these relationships can be used to predict future outcomes. To achieve these objectives, I conducted two separate regression analyses:
+
+1. Exploratory Regression Analysis: Investigating the relationships between variables to understand the key factors affecting student performance with hypothesis testing.
+
+2. Predictive Regression Analysis: Building regression models trained on a subset of the data and evaluating using test data to assets its predictive capability on student math scores. Regularization methods are also considered.
+
+[View Code on Kaggle](https://www.kaggle.com/code/kooploop/regression-regularization-on-student-math-scores)
+
+<div align="center">
+  <img src="images/reg_plot.png" width="47%" />
+  <img src="images/lasso_plot.png" width="51%" /> 
+</div>
+
+
+
+![RStudio](https://img.shields.io/badge/RStudio-4285F4?style=for-the-badge&logo=rstudio&logoColor=white)
+
+
+---
 <!-- 
 
 ### Predicting Autism in Children using Decision Trees
