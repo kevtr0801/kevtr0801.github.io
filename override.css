@@ -1,0 +1,4 @@
+.container-lg, .wrapper {
+  max-width: none !important;
+  width: 100% !important;
+}
