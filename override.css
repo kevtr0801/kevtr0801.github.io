@@ -1,4 +1,12 @@
-.container-lg, .wrapper {
-  max-width: none !important;
-  width: 100% !important;
+/* override.css */
+.portfolio-wrapper {
+  width: 100vw;
+  margin-left: calc(-50vw + 50%);
+  overflow-x: auto;
+  padding-top: 40px;
+}
+
+.portfolio-inner {
+  min-width: 1000px;
+  padding: 0 20px;
 }
