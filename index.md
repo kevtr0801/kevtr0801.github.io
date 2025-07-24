@@ -1,6 +1,6 @@
 ## Data Science Portfolio: Showcasing Analytics, Wrangling, and Machine Learning Models
 <div style="width:100%">
-<table>
+<table style="width:100%">
   <tr>
     <td width="33%" valign="top">
 
