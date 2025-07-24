@@ -1,6 +1,6 @@
 ## Data Science Portfolio: Showcasing Analytics, Wrangling, and Machine Learning Models
-<div style="width: 100vw; margin-left: calc(-50vw + 50%); overflow-x: auto;">
-  <div style="min-width: 1000px;">
+<div class="portfolio-wrapper">
+  <div class="portfolio-inner">
 <table style="width:100%">
   <tr>
     <td width="33%" valign="top">
