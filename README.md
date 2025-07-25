@@ -1,34 +1,64 @@
-##  Portfolio
-
 ## Introduction
 
 Welcome to my data projects portfolio! I'm a passionate data analyst student who has honed my skills through self-driven projects and continuous learning. I'm currently pursuing a master's degree in Data Science to help deepened my understanding and expertise in the field. My journey in data science began with a strong interest in uncovering insights from data, and I've since dedicated my time to mastering various aspects of the discipline, including wrangling, visualisations, statistical modelling,  machine learning and database management. 
 
+## Data Science Portfolio: Showcasing Exploration, Analysis, Machine Learning and Visualisation!
 
+### <img src="https://www.nist.gov/sites/default/files/styles/960_x_960_limit/public/images/2022/03/29/Survey.png?itok=ik44Omcw" style="height: 30px; width: 30px;"/> Data Professionals Survey Analysis & Visualization
+This Power BI dashboard presents insights from a survey of 630 data professionals, analyzing demographics, job roles, salary trends, and workplace satisfaction. It highlights average salaries across different job titles, the popularity of programming languages like Python and R, and breaks down perceptions of job difficulty. The dashboard also visualizes key happiness metrics, including work-life balance and salary satisfaction, through interactive gauges and charts. With intuitive visuals such as treemaps, bar plots, and donut charts, this project showcases my ability to transform raw survey data into clear, actionable insights using Power BI.
 
-
-## Data Science Portfolio: Showcasing Analytics, Wrangling, and Machine Learning Models
-
----
-### <img src="https://img.freepik.com/premium-vector/cute-cat-drinking-coffee-cartoon-illustration_274619-830.jpg" style="height: 40px; width: 40px;"/> Deciphering Coffee Excellence: A Logistic Regression Analysis on Coffee Quality
-
-Ever wondered what makes a coffee truly great? In this project, I dive into the data behind the brew by analysing aroma, flavour, sweetness, altitude, and acidity to uncover the what makes a coffee truly high quality using logistic regression models.
-
-[View code on Colab](https://colab.research.google.com/drive/17e4CyHPjsensGdyJDm25B32ND1vI2wDo?usp=sharing)
+[View dashboard in Git](https://github.com/kevtr0801/kevtr0801.github.io/tree/master/dashboards)
 
 <div align="center">
-  <img src="images/heatmap.png" width="55%" height="auto"/>
-  <img src="images/acidity.png" width="44%" height="auto"/>
+  <img src="images/Screenshot 2025-07-25 at 16-16-57 Data Survey.pdf.png" width="100%" height="auto"/>
 </div>
 
+![Power BI](https://img.shields.io/badge/-Power%20BI-F2C811?style=for-the-badge&logo=powerbi&logoColor=black)
+![Power Query](https://img.shields.io/badge/-Power%20Query-217346?style=for-the-badge&logoColor=white)
+![DAX](https://img.shields.io/badge/-DAX-0E6EB8?style=for-the-badge&logoColor=white)
+![Excel](https://img.shields.io/badge/Excel-217346?style=for-the-badge&logo=microsoft-excel&logoColor=white)
 
+---
+
+### <img src="https://upload.wikimedia.org/wikipedia/commons/5/53/Pok%C3%A9_Ball_icon.svg" style="height: 40px; width: 40px;"/> Pokémon Team Recommender Build 
+
+This project is a data-driven Pokémon Team Recommender built using unsupervised learning clustering techniques to help players discover synergistic and diverse team options. The system groups Pokémon based on shared attributes such as types, stats, abilities, and evolution families, then recommends suitable team members that either complement or match a selected Pokémon's characteristics.
+
+[View Website](https://pokemon-team-recommendation-system.onrender.com/) \
+[View Code on Git](https://github.com/kevtr0801/pokemon_team_recommendation_system)
+
+
+<div align="center">
+  <img src="images/elbow_method.png" width="55%" height="auto" />
+  <img src="images/pca_3d_vis.png" width="43%" height="auto" /> 
+  <img src="images/pokemon_website_prev.png" width="50%" height="auto" />
+</div>
 
 ![Python](https://img.shields.io/badge/Python-3776AB?style=for-the-badge&logo=python&logoColor=white)
 ![Jupyter Notebook](https://img.shields.io/badge/jupyter-%23FA0F00.svg?style=for-the-badge&logo=jupyter&logoColor=white)
 ![Pandas](https://img.shields.io/badge/pandas-%23150458.svg?style=for-the-badge&logo=pandas&logoColor=white)
 ![scikit-learn](https://img.shields.io/badge/scikit--learn-%23F7931E.svg?style=for-the-badge&logo=scikit-learn&logoColor=white)
-![seaborn](https://img.shields.io/badge/-seaborn-9B59B6?style=for-the-badge&logoColor=white)
-![statsmodels](https://img.shields.io/badge/-statsmodels-blue?style=for-the-badge&logoColor=white)
+![HTML](https://img.shields.io/badge/-HTML5-E34F26?style=for-the-badge&logo=html5&logoColor=white)
+![JavaScript](https://img.shields.io/badge/-JavaScript-F7DF1E?style=for-the-badge&logo=javascript&logoColor=black)
+
+---
+### <img src="https://img.freepik.com/premium-vector/chiropractic-logo-design-vector-illustration-human-backbone-pain-logo-spine-care-logo_828162-1249.jpg" style="height: 40px; width: 40px;"/> Applying Machine Learning to Diagnose Spinal Disorders
+
+This project applies supervised machine learning to classify vertebral column conditions—Normal, Disk Hernia, and Spondylolisthesis—based on six biomechanical spinal measurements. Using data from the UCI repository, the pipeline covers exploratory analysis, preprocessing, model training, hyperparameter tuning, and ensemble methods. The final Hard Voting Classifier, deployed via Streamlit, achieved 90.32% accuracy and offers a robust tool for diagnostic prediction.
+
+[View Website](https://predicting-vertebral-column-outcomes-2.onrender.com/) \
+[View Code on Git](https://github.com/kevtr0801/predicting-vertebral-column-outcomes)
+
+
+<div align="center">
+  <img src="images/rf_cm.png" width="43%" height="auto" /> 
+  <img src="images/vertabral_prev.png" width="50%" height="auto" />
+</div>
+
+![Python](https://img.shields.io/badge/Python-3776AB?style=for-the-badge&logo=python&logoColor=white)
+![Jupyter Notebook](https://img.shields.io/badge/jupyter-%23FA0F00.svg?style=for-the-badge&logo=jupyter&logoColor=white)
+![Pandas](https://img.shields.io/badge/pandas-%23150458.svg?style=for-the-badge&logo=pandas&logoColor=white)
+![scikit-learn](https://img.shields.io/badge/scikit--learn-%23F7931E.svg?style=for-the-badge&logo=scikit-learn&logoColor=white)
 
 ---
 
@@ -37,7 +67,6 @@ This dashboard summarises heart attack occurrences in Japan, showing key average
 
 [View dashboard in Tableau](https://public.tableau.com/app/profile/kevin.tran7345/viz/heart-attack-v3-final/Final)
 
-
 <div align="center">
   <img src="images/heart_attack.png" width="100%" height="auto"/>
 </div>
@@ -45,41 +74,6 @@ This dashboard summarises heart attack occurrences in Japan, showing key average
 ![Tableau](https://img.shields.io/badge/Tableau-E97627?style=for-the-badge&logo=Tableau&logoColor=white)
 ![Excel](https://img.shields.io/badge/Excel-217346?style=for-the-badge&logo=microsoft-excel&logoColor=white)
 ![PostgreSQL](https://img.shields.io/badge/PostgreSQL-336791?style=for-the-badge&logo=postgresql&logoColor=white)
-
-
----
-
-
-### <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQL0MbUrCY5rsrG3sAEiF6qWDRHlLpHnI0ooEmIkgWoUyElRLGZF2c85PnZlyDpie0UK28&usqp=CAU" style="height: 20px; width: 20px;"/> The Business of Eating: Forecasting Trends in Victoria's Food Industry
-This project embarks on an analytical journey to forecast the future of food service turnovers in Victoria Australia. I will be using Seasonal Naive, Exponential Smoothing (ETS) and AutoRegressive Integrated Moving Average (ARIMA) forecasting models to provide a comprehensive outlook on the movement in food service turnovers.
-
-[View Code on Rmarkdown](https://github.com/kevtr0801/kevtr0801.github.io/blob/master/pdf/food-turnover-project.pdf)
-
-<p align="center">
-  <img src="images/forecast-mod.png" width="90%" />
-</p>
-
-![RStudio](https://img.shields.io/badge/RStudio-4285F4?style=for-the-badge&logo=rstudio&logoColor=white)
-![FPP3](https://img.shields.io/badge/FPP3-7FFFD4?style=for-the-badge&logoColor=white)
-
----
-### <img src="https://titles.trackercdn.com/modern-warfare/db/images/ui_sticker_t9337.png?10697530" style="height: 30px; width: 30px;"/>  Machine Learning for the Heart: Comparing kNN, Decision Trees, and SVM in Predicting Heart Failure
-This small project focuses on predicting heart failure risk using machine learning algorithms. Heart failure is a complex clinical syndrome with high morbidity and mortality rates. Early detection and timely intervention can significantly improve patient prognosis. Therefore I hope this project harnesses the power of data science to aid in such early detection by analyzing clinical data through three distinct machine learning models: k-Nearest Neighbors (kNN), Decision Trees, and Support Vector Machines (SVM).
-
-[View Code on Colab](https://colab.research.google.com/drive/1-i9iOU26G-RsD1Yn5TEjz5NIvrweUOIo?usp=sharing)
-
-<div align="center">
-  <img src="images/rf-var.png" width="55%" height="auto" />
-  <img src="images/svm-plot.png" width="43%" height="auto" /> 
-    <img src="images/pruned-tree.png" width="50%" height="auto" />
-</div>
-
-
-![RStudio](https://img.shields.io/badge/RStudio-4285F4?style=for-the-badge&logo=rstudio&logoColor=white)
-![FNN](https://img.shields.io/badge/-FNN-FF69B4?style=for-the-badge&logoColor=white)
-![forecast](https://img.shields.io/badge/-forecast-7FFFD4?style=for-the-badge&logoColor=white)
-![e1071](https://img.shields.io/badge/-e1071-FFD700?style=for-the-badge&logoColor=white)
-![pROC](https://img.shields.io/badge/-pROC-6495ED?style=for-the-badge&logoColor=white)
 
 ---
 
@@ -93,13 +87,67 @@ Customer reviews have become a cornerstone for consumer decision-making. In this
   <img src="images/ts.png" width="51%" /> 
 </div>
 
-
-
 ![Python](https://img.shields.io/badge/Python-3776AB?style=for-the-badge&logo=python&logoColor=white)
 ![Jupyter Notebook](https://img.shields.io/badge/jupyter-%23FA0F00.svg?style=for-the-badge&logo=jupyter&logoColor=white)
 ![Pandas](https://img.shields.io/badge/pandas-%23150458.svg?style=for-the-badge&logo=pandas&logoColor=white)
-![NLTK](https://img.shields.io/badge/NLTK-%2300C851.svg?style=for-the-badge&logoColor=white)
+![NLP](https://img.shields.io/badge/NLP-%2300C851.svg?style=for-the-badge&logoColor=white)
 ![scikit-learn](https://img.shields.io/badge/scikit--learn-%23F7931E.svg?style=for-the-badge&logo=scikit-learn&logoColor=white)
+
+---
+
+### <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQL0MbUrCY5rsrG3sAEiF6qWDRHlLpHnI0ooEmIkgWoUyElRLGZF2c85PnZlyDpie0UK28&usqp=CAU" style="height: 20px; width: 20px;"/> The Business of Eating: Forecasting Trends in Victoria's Food Industry
+This project focuses on forecasting the future of food service turnovers in Victoria Australia. I will be using Seasonal Naive, Exponential Smoothing (ETS) and AutoRegressive Integrated Moving Average (ARIMA) forecasting models to provide a comprehensive outlook on the movement in food service turnovers.
+
+[View Code on Rmarkdown](https://github.com/kevtr0801/kevtr0801.github.io/blob/master/pdf/food-turnover-project.pdf)
+
+<p align="center">
+  <img src="images/forecast-mod.png" width="90%" />
+</p>
+
+![RStudio](https://img.shields.io/badge/RStudio-4285F4?style=for-the-badge&logo=rstudio&logoColor=white)
+![FPP3](https://img.shields.io/badge/FPP3-7FFFD4?style=for-the-badge&logoColor=white)
+
+---
+
+### <img src="https://titles.trackercdn.com/modern-warfare/db/images/ui_sticker_t9337.png?10697530" style="height: 30px; width: 30px;"/>  Machine Learning for the Heart: Comparing kNN, Decision Trees, and SVM in Predicting Heart Failure
+This small project focuses on predicting heart failure risk using machine learning algorithms. Heart failure is a complex clinical syndrome with high morbidity and mortality rates. Early detection and timely intervention can significantly improve patient prognosis. Therefore I hope this project harnesses the power of data science to aid in such early detection by analyzing clinical data through three distinct machine learning models: k-Nearest Neighbors (kNN), Decision Trees, and Support Vector Machines (SVM).
+
+[View Code on Colab](https://colab.research.google.com/drive/1-i9iOU26G-RsD1Yn5TEjz5NIvrweUOIo?usp=sharing)
+
+<div align="center">
+  <img src="images/rf-var.png" width="55%" height="auto" />
+  <img src="images/svm-plot.png" width="43%" height="auto" /> 
+  <img src="images/pruned-tree.png" width="50%" height="auto" />
+</div>
+
+
+![RStudio](https://img.shields.io/badge/RStudio-4285F4?style=for-the-badge&logo=rstudio&logoColor=white)
+![FNN](https://img.shields.io/badge/-FNN-FF69B4?style=for-the-badge&logoColor=white)
+![forecast](https://img.shields.io/badge/-forecast-7FFFD4?style=for-the-badge&logoColor=white)
+![e1071](https://img.shields.io/badge/-e1071-FFD700?style=for-the-badge&logoColor=white)
+![pROC](https://img.shields.io/badge/-pROC-6495ED?style=for-the-badge&logoColor=white)
+
+
+---
+
+### <img src="https://png.pngtree.com/png-vector/20190930/ourmid/pngtree-exam-icon-isolated-on-abstract-background-png-image_1764007.jpg" style="height: 20px; width: 20px;"/> Regression & Regularization on Student Math Scores
+
+This notebook explores the relationships between various factors affecting student's math scores during exams, and evaluates how well these relationships can be used to predict future outcomes. To achieve these objectives, I conducted two separate regression analyses:
+
+1. Exploratory Regression Analysis: Investigating the relationships between variables to understand the key factors affecting student performance with hypothesis testing.
+
+2. Predictive Regression Analysis: Building regression models trained on a subset of the data and evaluating using test data to assets its predictive capability on student math scores. Regularization methods are also considered.
+
+[View Code on Kaggle](https://www.kaggle.com/code/kooploop/regression-regularization-on-student-math-scores)
+
+<div align="center">
+  <img src="images/reg_plot.png" width="47%" />
+  <img src="images/lasso_plot.png" width="51%" /> 
+</div>
+
+
+
+![RStudio](https://img.shields.io/badge/RStudio-4285F4?style=for-the-badge&logo=rstudio&logoColor=white)
 
 
 ---
@@ -163,3 +211,4 @@ Customer reviews have become a cornerstone for consumer decision-making. In this
 - [Project 4 Title](http://example.com/)
 - [Project 5 Title](http://example.com/)
 -->
+
