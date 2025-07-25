@@ -38,6 +38,25 @@ This project is a data-driven Pokémon Team Recommender built using unsupervised
 ![HTML](https://img.shields.io/badge/-HTML5-E34F26?style=for-the-badge&logo=html5&logoColor=white)
 ![JavaScript](https://img.shields.io/badge/-JavaScript-F7DF1E?style=for-the-badge&logo=javascript&logoColor=black)
 
+---
+### <img src="https://img.freepik.com/premium-vector/chiropractic-logo-design-vector-illustration-human-backbone-pain-logo-spine-care-logo_828162-1249.jpg" style="height: 40px; width: 40px;"/> Applying Machine Learning to Diagnose Spinal Disorders
+
+This project applies supervised machine learning to classify vertebral column conditions—Normal, Disk Hernia, and Spondylolisthesis—based on six biomechanical spinal measurements. Using data from the UCI repository, the pipeline covers exploratory analysis, preprocessing, model training, hyperparameter tuning, and ensemble methods. The final Hard Voting Classifier, deployed via Streamlit, achieved 90.32% accuracy and offers a robust tool for diagnostic prediction.
+
+[View Website](https://predicting-vertebral-column-outcomes-2.onrender.com/) \
+[View Code on Git](https://github.com/kevtr0801/predicting-vertebral-column-outcomes)
+
+
+<div align="center">
+  <img src="images/feature importance.png" width="55%" height="auto" />
+  <img src="images/rf_cm.png" width="43%" height="auto" /> 
+  <img src="images/vertabral_prev.png" width="50%" height="auto" />
+</div>
+
+![Python](https://img.shields.io/badge/Python-3776AB?style=for-the-badge&logo=python&logoColor=white)
+![Jupyter Notebook](https://img.shields.io/badge/jupyter-%23FA0F00.svg?style=for-the-badge&logo=jupyter&logoColor=white)
+![Pandas](https://img.shields.io/badge/pandas-%23150458.svg?style=for-the-badge&logo=pandas&logoColor=white)
+![scikit-learn](https://img.shields.io/badge/scikit--learn-%23F7931E.svg?style=for-the-badge&logo=scikit-learn&logoColor=white)
 
 ---
 
