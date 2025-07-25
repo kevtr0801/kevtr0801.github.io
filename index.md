@@ -15,7 +15,6 @@ This Power BI dashboard presents insights from a survey of 630 data professional
 ![DAX](https://img.shields.io/badge/-DAX-0E6EB8?style=for-the-badge&logoColor=white)
 ![Excel](https://img.shields.io/badge/Excel-217346?style=for-the-badge&logo=microsoft-excel&logoColor=white)
 
-
 ---
 
 ### <img src="https://upload.wikimedia.org/wikipedia/commons/5/53/Pok%C3%A9_Ball_icon.svg" style="height: 40px; width: 40px;"/> Pokémon Team Recommender Build 
@@ -60,20 +59,6 @@ This project applies supervised machine learning to classify vertebral column co
 
 ---
 
-### <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQL0MbUrCY5rsrG3sAEiF6qWDRHlLpHnI0ooEmIkgWoUyElRLGZF2c85PnZlyDpie0UK28&usqp=CAU" style="height: 20px; width: 20px;"/> The Business of Eating: Forecasting Trends in Victoria's Food Industry
-This project embarks on an analytical journey to forecast the future of food service turnovers in Victoria Australia. I will be using Seasonal Naive, Exponential Smoothing (ETS) and AutoRegressive Integrated Moving Average (ARIMA) forecasting models to provide a comprehensive outlook on the movement in food service turnovers.
-
-[View Code on Rmarkdown](https://github.com/kevtr0801/kevtr0801.github.io/blob/master/pdf/food-turnover-project.pdf)
-
-<p align="center">
-  <img src="images/forecast-mod.png" width="90%" />
-</p>
-
-![RStudio](https://img.shields.io/badge/RStudio-4285F4?style=for-the-badge&logo=rstudio&logoColor=white)
-![FPP3](https://img.shields.io/badge/FPP3-7FFFD4?style=for-the-badge&logoColor=white)
-
----
-
 ### <img src="https://img.freepik.com/premium-vector/man-having-heart-attack-illustration_598748-112.jpg?semt=ais_hybrid&w=740" style="height: 30px; width: 30px;"/> Understanding Japan’s Heart Attack Crisis
 This dashboard summarises heart attack occurrences in Japan, showing key averages (e.g., heart rate, BMI, blood pressure) and visualising how heart attacks vary by age, gender, region, health metrics, and lifestyle factors like physical activity, diet, and alcohol consumption.
 
@@ -86,6 +71,38 @@ This dashboard summarises heart attack occurrences in Japan, showing key average
 ![Tableau](https://img.shields.io/badge/Tableau-E97627?style=for-the-badge&logo=Tableau&logoColor=white)
 ![Excel](https://img.shields.io/badge/Excel-217346?style=for-the-badge&logo=microsoft-excel&logoColor=white)
 ![PostgreSQL](https://img.shields.io/badge/PostgreSQL-336791?style=for-the-badge&logo=postgresql&logoColor=white)
+
+---
+
+### <img src="https://cdn0.iconfinder.com/data/icons/social-media-2275/64/amazon-512.png" style="height: 20px; width: 20px;"/> Decoding Customer Sentiments: An NLP Approach of Analysing Amazon Customer Reviews
+Customer reviews have become a cornerstone for consumer decision-making. In this project I used Natural Language Processing (NLP), to detect the customer's sentimental value of the products they reviewed. This involves handling the raw dataset and parsing it into a dataframe, NLP processess such as lemmatization and tokenization, and using WordClouds to observe what customers are saying for certain products. 
+
+[View Code on Colab](https://colab.research.google.com/drive/1fTI68pxkJyydkzL9ix2HFqkUyjhI7Mv1?usp=sharing)
+
+<div align="center">
+  <img src="images/wordcloud.png" width="47%" />
+  <img src="images/ts.png" width="51%" /> 
+</div>
+
+![Python](https://img.shields.io/badge/Python-3776AB?style=for-the-badge&logo=python&logoColor=white)
+![Jupyter Notebook](https://img.shields.io/badge/jupyter-%23FA0F00.svg?style=for-the-badge&logo=jupyter&logoColor=white)
+![Pandas](https://img.shields.io/badge/pandas-%23150458.svg?style=for-the-badge&logo=pandas&logoColor=white)
+![NLP](https://img.shields.io/badge/NLP-%2300C851.svg?style=for-the-badge&logoColor=white)
+![scikit-learn](https://img.shields.io/badge/scikit--learn-%23F7931E.svg?style=for-the-badge&logo=scikit-learn&logoColor=white)
+
+---
+
+### <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQL0MbUrCY5rsrG3sAEiF6qWDRHlLpHnI0ooEmIkgWoUyElRLGZF2c85PnZlyDpie0UK28&usqp=CAU" style="height: 20px; width: 20px;"/> The Business of Eating: Forecasting Trends in Victoria's Food Industry
+This project focuses on forecasting the future of food service turnovers in Victoria Australia. I will be using Seasonal Naive, Exponential Smoothing (ETS) and AutoRegressive Integrated Moving Average (ARIMA) forecasting models to provide a comprehensive outlook on the movement in food service turnovers.
+
+[View Code on Rmarkdown](https://github.com/kevtr0801/kevtr0801.github.io/blob/master/pdf/food-turnover-project.pdf)
+
+<p align="center">
+  <img src="images/forecast-mod.png" width="90%" />
+</p>
+
+![RStudio](https://img.shields.io/badge/RStudio-4285F4?style=for-the-badge&logo=rstudio&logoColor=white)
+![FPP3](https://img.shields.io/badge/FPP3-7FFFD4?style=for-the-badge&logoColor=white)
 
 ---
 
@@ -107,28 +124,6 @@ This small project focuses on predicting heart failure risk using machine learni
 ![e1071](https://img.shields.io/badge/-e1071-FFD700?style=for-the-badge&logoColor=white)
 ![pROC](https://img.shields.io/badge/-pROC-6495ED?style=for-the-badge&logoColor=white)
 
----
-
-### <img src="https://cdn0.iconfinder.com/data/icons/social-media-2275/64/amazon-512.png" style="height: 20px; width: 20px;"/> Decoding Customer Sentiments: An NLP Approach of Analysing Amazon Customer Reviews
-Customer reviews have become a cornerstone for consumer decision-making. In this project I used Natural Language Processing (NLP), to detect the customer's sentimental value of the products they reviewed. This involves handling the raw dataset and parsing it into a dataframe, NLP processess such as lemmatization and tokenization, and using WordClouds to observe what customers are saying for certain products. 
-
-[View Code on Colab](https://colab.research.google.com/drive/1fTI68pxkJyydkzL9ix2HFqkUyjhI7Mv1?usp=sharing)
-
-<div align="center">
-  <img src="images/wordcloud.png" width="47%" />
-  <img src="images/ts.png" width="51%" /> 
-</div>
-
-
-
-![Python](https://img.shields.io/badge/Python-3776AB?style=for-the-badge&logo=python&logoColor=white)
-![Jupyter Notebook](https://img.shields.io/badge/jupyter-%23FA0F00.svg?style=for-the-badge&logo=jupyter&logoColor=white)
-![Pandas](https://img.shields.io/badge/pandas-%23150458.svg?style=for-the-badge&logo=pandas&logoColor=white)
-![NLTK](https://img.shields.io/badge/NLTK-%2300C851.svg?style=for-the-badge&logoColor=white)
-![scikit-learn](https://img.shields.io/badge/scikit--learn-%23F7931E.svg?style=for-the-badge&logo=scikit-learn&logoColor=white)
-
-
----
 
 ---
 
