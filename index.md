@@ -48,7 +48,6 @@ This project applies supervised machine learning to classify vertebral column co
 
 
 <div align="center">
-  <img src="images/feature importance.png" width="55%" height="auto" />
   <img src="images/rf_cm.png" width="43%" height="auto" /> 
   <img src="images/vertabral_prev.png" width="50%" height="auto" />
 </div>
