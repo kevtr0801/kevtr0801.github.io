@@ -1,4 +1,4 @@
-## Data Science Portfolio: Showcasing Analytics, Wrangling, and Machine Learning Models
+## Data Science Portfolio: Showcasing Exploration, Analysis, Machine Learning and Visualisation!
 
 ---
 ### <img src="https://www.nist.gov/sites/default/files/styles/960_x_960_limit/public/images/2022/03/29/Survey.png?itok=ik44Omcw" style="height: 30px; width: 30px;"/> Data Professionals Survey Analysis & Visualization
