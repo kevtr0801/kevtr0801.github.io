@@ -1,19 +1,20 @@
 ## Data Science Portfolio: Showcasing Analytics, Wrangling, and Machine Learning Models
 
 ---
-### <img src="https://img.freepik.com/premium-vector/man-having-heart-attack-illustration_598748-112.jpg?semt=ais_hybrid&w=740" style="height: 30px; width: 30px;"/> Understanding Japan’s Heart Attack Crisis
-This dashboard summarises heart attack occurrences in Japan, showing key averages (e.g., heart rate, BMI, blood pressure) and visualising how heart attacks vary by age, gender, region, health metrics, and lifestyle factors like physical activity, diet, and alcohol consumption.
+### <img src="https://www.nist.gov/sites/default/files/styles/960_x_960_limit/public/images/2022/03/29/Survey.png?itok=ik44Omcw" style="height: 30px; width: 30px;"/> Data Professionals Survey Analysis & Visualization
+This Power BI dashboard presents insights from a survey of 630 data professionals, analyzing demographics, job roles, salary trends, and workplace satisfaction. It highlights average salaries across different job titles, the popularity of programming languages like Python and R, and breaks down perceptions of job difficulty. The dashboard also visualizes key happiness metrics, including work-life balance and salary satisfaction, through interactive gauges and charts. With intuitive visuals such as treemaps, bar plots, and donut charts, this project showcases my ability to transform raw survey data into clear, actionable insights using Power BI.
 
-[View dashboard in Tableau](https://public.tableau.com/app/profile/kevin.tran7345/viz/heart-attack-v3-final/Final)
-
+[View dashboard in Git](https://github.com/kevtr0801/kevtr0801.github.io/tree/master/dashboards)
 
 <div align="center">
-  <img src="images/heart_attack.png" width="100%" height="auto"/>
+  <img src="images/Screenshot 2025-07-25 at 16-16-57 Data Survey.pdf.png" width="100%" height="auto"/>
 </div>
 
-![Tableau](https://img.shields.io/badge/Tableau-E97627?style=for-the-badge&logo=Tableau&logoColor=white)
+![Power BI](https://img.shields.io/badge/-Power%20BI-F2C811?style=for-the-badge&logo=powerbi&logoColor=black)
+![Power Query](https://img.shields.io/badge/-Power%20Query-217346?style=for-the-badge&logoColor=white)
+![DAX](https://img.shields.io/badge/-DAX-0E6EB8?style=for-the-badge&logoColor=white)
 ![Excel](https://img.shields.io/badge/Excel-217346?style=for-the-badge&logo=microsoft-excel&logoColor=white)
-![PostgreSQL](https://img.shields.io/badge/PostgreSQL-336791?style=for-the-badge&logo=postgresql&logoColor=white)
+
 
 ---
 
@@ -72,6 +73,22 @@ This project embarks on an analytical journey to forecast the future of food ser
 ![FPP3](https://img.shields.io/badge/FPP3-7FFFD4?style=for-the-badge&logoColor=white)
 
 ---
+
+### <img src="https://img.freepik.com/premium-vector/man-having-heart-attack-illustration_598748-112.jpg?semt=ais_hybrid&w=740" style="height: 30px; width: 30px;"/> Understanding Japan’s Heart Attack Crisis
+This dashboard summarises heart attack occurrences in Japan, showing key averages (e.g., heart rate, BMI, blood pressure) and visualising how heart attacks vary by age, gender, region, health metrics, and lifestyle factors like physical activity, diet, and alcohol consumption.
+
+[View dashboard in Tableau](https://public.tableau.com/app/profile/kevin.tran7345/viz/heart-attack-v3-final/Final)
+
+<div align="center">
+  <img src="images/heart_attack.png" width="100%" height="auto"/>
+</div>
+
+![Tableau](https://img.shields.io/badge/Tableau-E97627?style=for-the-badge&logo=Tableau&logoColor=white)
+![Excel](https://img.shields.io/badge/Excel-217346?style=for-the-badge&logo=microsoft-excel&logoColor=white)
+![PostgreSQL](https://img.shields.io/badge/PostgreSQL-336791?style=for-the-badge&logo=postgresql&logoColor=white)
+
+---
+
 ### <img src="https://titles.trackercdn.com/modern-warfare/db/images/ui_sticker_t9337.png?10697530" style="height: 30px; width: 30px;"/>  Machine Learning for the Heart: Comparing kNN, Decision Trees, and SVM in Predicting Heart Failure
 This small project focuses on predicting heart failure risk using machine learning algorithms. Heart failure is a complex clinical syndrome with high morbidity and mortality rates. Early detection and timely intervention can significantly improve patient prognosis. Therefore I hope this project harnesses the power of data science to aid in such early detection by analyzing clinical data through three distinct machine learning models: k-Nearest Neighbors (kNN), Decision Trees, and Support Vector Machines (SVM).
 
