@@ -17,23 +17,27 @@ This dashboard summarises heart attack occurrences in Japan, showing key average
 
 ---
 
-### <img src="https://img.freepik.com/premium-vector/cute-cat-drinking-coffee-cartoon-illustration_274619-830.jpg" style="height: 40px; width: 40px;"/> Deciphering Coffee Excellence: A Logistic Regression Analysis on Coffee Quality
+### <img src="https://upload.wikimedia.org/wikipedia/commons/5/53/Pok%C3%A9_Ball_icon.svg" style="height: 40px; width: 40px;"/> Pokémon Team Recommender Build 
 
-Ever wondered what makes a coffee truly great? In this project, I dive into the data behind the brew by analysing aroma, flavour, sweetness, altitude, and acidity to uncover the what makes a coffee truly high quality using logistic regression models.
+This project is a data-driven Pokémon Team Recommender built using unsupervised learning clustering techniques to help players discover synergistic and diverse team options. The system groups Pokémon based on shared attributes such as types, stats, abilities, and evolution families, then recommends suitable team members that either complement or match a selected Pokémon's characteristics.
 
-[View code on Colab](https://colab.research.google.com/drive/17e4CyHPjsensGdyJDm25B32ND1vI2wDo?usp=sharing)
+[View Website](https://pokemon-team-recommendation-system.onrender.com/) \
+[View Code on Git](https://github.com/kevtr0801/pokemon_team_recommendation_system)
+
 
 <div align="center">
-  <img src="images/heatmap.png" width="55%" height="auto"/>
-  <img src="images/acidity.png" width="44%" height="auto"/>
+  <img src="images/elbow_method.png" width="55%" height="auto" />
+  <img src="images/pca_3d_vis.png" width="43%" height="auto" /> 
+  <img src="images/pokemon_website_prev.png" width="50%" height="auto" />
 </div>
 
 ![Python](https://img.shields.io/badge/Python-3776AB?style=for-the-badge&logo=python&logoColor=white)
 ![Jupyter Notebook](https://img.shields.io/badge/jupyter-%23FA0F00.svg?style=for-the-badge&logo=jupyter&logoColor=white)
 ![Pandas](https://img.shields.io/badge/pandas-%23150458.svg?style=for-the-badge&logo=pandas&logoColor=white)
 ![scikit-learn](https://img.shields.io/badge/scikit--learn-%23F7931E.svg?style=for-the-badge&logo=scikit-learn&logoColor=white)
-![seaborn](https://img.shields.io/badge/-seaborn-9B59B6?style=for-the-badge&logoColor=white)
-![statsmodels](https://img.shields.io/badge/-statsmodels-blue?style=for-the-badge&logoColor=white)
+![HTML](https://img.shields.io/badge/-HTML5-E34F26?style=for-the-badge&logo=html5&logoColor=white)
+![JavaScript](https://img.shields.io/badge/-JavaScript-F7DF1E?style=for-the-badge&logo=javascript&logoColor=black)
+
 
 ---
 
@@ -58,7 +62,7 @@ This small project focuses on predicting heart failure risk using machine learni
 <div align="center">
   <img src="images/rf-var.png" width="55%" height="auto" />
   <img src="images/svm-plot.png" width="43%" height="auto" /> 
-    <img src="images/pruned-tree.png" width="50%" height="auto" />
+  <img src="images/pruned-tree.png" width="50%" height="auto" />
 </div>
 
 
