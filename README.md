@@ -4,13 +4,14 @@ Welcome to my data projects portfolio! I'm a passionate data analyst student who
 
 ## Data Science Portfolio: Showcasing Exploration, Analysis, Machine Learning and Visualisation!
 
-### <img src="https://www.nist.gov/sites/default/files/styles/960_x_960_limit/public/images/2022/03/29/Survey.png?itok=ik44Omcw" style="height: 30px; width: 30px;"/> Data Professionals Survey Analysis & Visualization
-This Power BI dashboard presents insights from a survey of 630 data professionals, analyzing demographics, job roles, salary trends, and workplace satisfaction. It highlights average salaries across different job titles, the popularity of programming languages like Python and R, and breaks down perceptions of job difficulty. The dashboard also visualizes key happiness metrics, including work-life balance and salary satisfaction, through interactive gauges and charts. With intuitive visuals such as treemaps, bar plots, and donut charts, this project showcases my ability to transform raw survey data into clear, actionable insights using Power BI.
+---
+### <img src="https://camo.githubusercontent.com/65ebcd36ea065157e9d560cb348f2a3c3cc8a947d30a75ba09ccc3c5aeb752e5/68747470733a2f2f75706c6f61642e77696b696d656469612e6f72672f77696b6970656469612f636f6d6d6f6e732f382f38342f53706f746966795f69636f6e2e737667" style="height: 30px; width: 30px;"/> Spotify Streaming Report 2024
+This report provides an overview of Spotify’s most-streamed tracks and artists in 2025. It focuses on total Spotify streams, release dates, and performance trends, with additional supporting statistics from YouTube and TikTok.”
 
-[View dashboard in Git](https://github.com/kevtr0801/kevtr0801.github.io/tree/master/dashboards)
+[View dashboard in Git](https://github.com/kevtr0801/kevtr0801.github.io/tree/master/dashboards/spotify_streams_2024)
 
 <div align="center">
-  <img src="images/Screenshot 2025-07-25 at 16-16-57 Data Survey.pdf.png" width="100%" height="auto"/>
+  <img src="dashboards/spotify_streams_2024/spotify_streams_2024_report.png" width="100%" height="auto"/>
 </div>
 
 ![Power BI](https://img.shields.io/badge/-Power%20BI-F2C811?style=for-the-badge&logo=powerbi&logoColor=black)
@@ -149,6 +150,8 @@ This notebook explores the relationships between various factors affecting stude
 
 ![RStudio](https://img.shields.io/badge/RStudio-4285F4?style=for-the-badge&logo=rstudio&logoColor=white)
 
+
+---
 
 ---
 <!-- 
