@@ -2,7 +2,7 @@
 
 ---
 ### <img src="https://camo.githubusercontent.com/65ebcd36ea065157e9d560cb348f2a3c3cc8a947d30a75ba09ccc3c5aeb752e5/68747470733a2f2f75706c6f61642e77696b696d656469612e6f72672f77696b6970656469612f636f6d6d6f6e732f382f38342f53706f746966795f69636f6e2e737667" style="height: 30px; width: 30px;"/> Spotify Streaming Report 2024
-This report provides an overview of Spotify’s most-streamed tracks and artists in 2025. It focuses on total Spotify streams, release dates, and performance trends, with additional supporting statistics from YouTube and TikTok.
+This report provides an overview of Spotify’s most-streamed tracks and artists in 2024. It focuses on total Spotify streams, release dates, and performance trends, with additional supporting statistics from YouTube and TikTok.
 
 [View dashboard in Git](https://github.com/kevtr0801/kevtr0801.github.io/tree/master/dashboards/spotify_streams_2024)
 
