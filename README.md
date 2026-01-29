@@ -5,6 +5,7 @@ Welcome to my data projects portfolio! I'm a passionate data analyst student who
 ## Data Science Portfolio: Showcasing Exploration, Analysis, Machine Learning and Visualisation!
 
 ---
+<!--
 ### <img src="https://camo.githubusercontent.com/65ebcd36ea065157e9d560cb348f2a3c3cc8a947d30a75ba09ccc3c5aeb752e5/68747470733a2f2f75706c6f61642e77696b696d656469612e6f72672f77696b6970656469612f636f6d6d6f6e732f382f38342f53706f746966795f69636f6e2e737667" style="height: 30px; width: 30px;"/> Spotify Streaming Report 2024
 This report provides an overview of Spotify’s most-streamed tracks and artists in 2025. It focuses on total Spotify streams, release dates, and performance trends, with additional supporting statistics from YouTube and TikTok.”
 
@@ -18,7 +19,7 @@ This report provides an overview of Spotify’s most-streamed tracks and artists
 ![Power Query](https://img.shields.io/badge/-Power%20Query-217346?style=for-the-badge&logoColor=white)
 ![DAX](https://img.shields.io/badge/-DAX-0E6EB8?style=for-the-badge&logoColor=white)
 ![Excel](https://img.shields.io/badge/Excel-217346?style=for-the-badge&logo=microsoft-excel&logoColor=white)
-
+-->
 ---
 
 ### <img src="https://upload.wikimedia.org/wikipedia/commons/5/53/Pok%C3%A9_Ball_icon.svg" style="height: 40px; width: 40px;"/> Pokémon Team Recommender Build 
